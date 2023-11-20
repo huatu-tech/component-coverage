@@ -1,0 +1,1035 @@
+2023-11-17 14:29:57,887 INFO 75755 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50402116ms at 2023-11-18 04:30:00.003
+2023-11-17 14:29:57,887 INFO 75755 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34202113ms at 2023-11-18 00:00:00.000
+2023-11-17 14:29:57,888 INFO 75755 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34203113ms at 2023-11-18 00:00:01.001
+2023-11-17 14:29:57,840 INFO 75757 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 14:29:57,840 INFO 75757 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 14:29:57,840 INFO 75757 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 14:30:26,926 INFO 75842 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 14:30:26,927 INFO 75842 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 14:30:26,927 INFO 75842 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 14:30:29,498 INFO 75859 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 14:30:29,498 INFO 75859 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 14:30:29,498 INFO 75859 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 14:37:50,607 INFO 77469 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49929395ms at 2023-11-18 04:30:00.002
+2023-11-17 14:37:50,607 INFO 77469 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33729393ms at 2023-11-18 00:00:00.000
+2023-11-17 14:37:50,607 INFO 77469 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33730393ms at 2023-11-18 00:00:01.000
+2023-11-17 14:37:50,565 INFO 77476 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 14:37:50,565 INFO 77476 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 14:37:50,565 INFO 77476 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 15:57:31,649 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45148352ms at 2023-11-18 04:30:00.001
+2023-11-17 15:57:31,650 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28948351ms at 2023-11-18 00:00:00.001
+2023-11-17 15:57:31,650 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28949350ms at 2023-11-18 00:00:01.000
+2023-11-17 15:57:31,650 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 15:58:31.650
+2023-11-17 15:57:31,415 INFO 93048 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 15:57:31,415 INFO 93048 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 15:57:31,415 INFO 93048 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 15:57:31,415 INFO 93048 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 15:58:31,653 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 15:59:31.653
+2023-11-17 15:58:31,654 INFO 93048 [Job#170020791165225016459176670001] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 15:58:31,866 ERROR 93048 [-/127.0.0.1/-/208ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020791165225016459176670001] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 200ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 07:58:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 07:58:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 07:58:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 192,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 15:59:31,656 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:00:31.655
+2023-11-17 15:59:31,656 INFO 93048 [Job#170020797165425017059198538332] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 15:59:31,790 ERROR 93048 [-/127.0.0.1/-/134ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020797165425017059198538332] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 124ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 07:59:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 07:59:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 07:59:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 122,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:00:31,658 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:01:31.658
+2023-11-17 16:00:31,660 INFO 93048 [Job#170020803165825017659236140833] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:00:31,773 ERROR 93048 [-/127.0.0.1/-/113ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020803165825017659236140833] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 109ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":2,"requestCount":2,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:00:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:00:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:00:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 109,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:01:31,660 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:02:31.660
+2023-11-17 16:01:31,661 INFO 93048 [Job#170020809165925018259254017914] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:01:31,780 ERROR 93048 [-/127.0.0.1/-/119ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020809165925018259254017914] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 114ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":3,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:01:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:01:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:01:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 113,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:02:31,664 INFO 93048 [Job#170020815166125018859264366665] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:02:31,661 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:03:31.661
+2023-11-17 16:02:31,827 ERROR 93048 [-/127.0.0.1/-/162ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020815166125018859264366665] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 157ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":4,"requestCount":4,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:02:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:02:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:02:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 156,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:03:31,665 INFO 93048 [Job#170020821166325019459292826666] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:03:31,664 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:04:31.664
+2023-11-17 16:03:31,828 ERROR 93048 [-/127.0.0.1/-/163ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020821166325019459292826666] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 154ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":5,"requestCount":5,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:03:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:03:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:03:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 152,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:04:31,673 INFO 93048 [Job#170020827166725020059327979167] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:04:31,822 ERROR 93048 [-/127.0.0.1/-/149ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020827166725020059327979167] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 143ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":0,"timeoutSocketCount":6,"requestCount":6,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:04:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:04:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:04:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 143,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:04:31,669 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:05:31.668
+2023-11-17 16:05:31,672 INFO 93048 [Job#170020833167125020659366281258] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:05:31,784 ERROR 93048 [-/127.0.0.1/-/112ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020833167125020659366281258] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 108ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":8,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":0,"timeoutSocketCount":7,"requestCount":7,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:05:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:05:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:05:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 107,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:05:31,672 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:06:31.671
+2023-11-17 16:06:31,674 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:07:31.674
+2023-11-17 16:06:31,677 INFO 93048 [Job#170020839167325021259392207509] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:06:31,801 ERROR 93048 [-/127.0.0.1/-/124ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#170020839167325021259392207509] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 119ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":9,"createSocketErrorCount":0,"closeSocketCount":8,"errorSocketCount":0,"timeoutSocketCount":8,"requestCount":8,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:06:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:06:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:06:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 117,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:07:31,676 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:08:31.676
+2023-11-17 16:07:31,677 INFO 93048 [Job#1700208451676250218594144754110] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:07:31,785 ERROR 93048 [-/127.0.0.1/-/107ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208451676250218594144754110] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 105ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":10,"createSocketErrorCount":0,"closeSocketCount":9,"errorSocketCount":0,"timeoutSocketCount":9,"requestCount":9,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:07:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:07:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:07:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 104,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:08:31,677 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:09:31.677
+2023-11-17 16:08:31,678 INFO 93048 [Job#1700208511677250224594265920811] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:08:31,798 ERROR 93048 [-/127.0.0.1/-/120ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208511677250224594265920811] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 114ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":11,"createSocketErrorCount":0,"closeSocketCount":10,"errorSocketCount":0,"timeoutSocketCount":10,"requestCount":10,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:08:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:08:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:08:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 113,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:09:31,684 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:10:31.684
+2023-11-17 16:09:31,690 INFO 93048 [Job#1700208571683250230594908500012] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:09:33,851 ERROR 93048 [-/127.0.0.1/-/2161ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208571683250230594908500012] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 121ms. SyntaxError [JSONResponseFormatError]: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html><html><!--[if lt IE 10]>\n        <script>window.location.href='/upgrade.html'</script>\n    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta http-equiv=Cache-Control content=\"no-cache, no-store, max-age=0, must-revalidate\"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" name=viewport><l" ...skip... "=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()},!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>"), GET https://beta-mobile-screen.huatu.com 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":12,"createSocketErrorCount":0,"closeSocketCount":11,"errorSocketCount":0,"timeoutSocketCount":11,"requestCount":11,"freeSockets":{},"sockets":{"beta-mobile-screen.huatu.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Fri, 17 Nov 2023 08:09:31 GMT","content-type":"text/html; charset=utf-8","content-length":"2212","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","last-modified":"Tue, 14 Nov 2023 07:09:45 GMT","etag":"\"65531d39-8a4\"","x-frame-options":"SAMEORIGIN","accept-ranges":"bytes","cache-control":"no-store, no-cache"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+    "        <script>window.location.href='/upgrade.html'</script>\n" +
+    '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+  path: '/',
+  status: 200,
+  headers: {
+    server: 'nginx',
+    date: 'Fri, 17 Nov 2023 08:09:31 GMT',
+    'content-type': 'text/html; charset=utf-8',
+    'content-length': '2212',
+    connection: 'keep-alive',
+    vary: 'Accept-Encoding, Accept-Encoding',
+    'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+    etag: '"65531d39-8a4"',
+    'x-frame-options': 'SAMEORIGIN',
+    'accept-ranges': 'bytes',
+    'cache-control': 'no-store, no-cache'
+  },
+  res: {
+    status: 200,
+    statusCode: 200,
+    statusMessage: 'OK',
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 17 Nov 2023 08:09:31 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '2212',
+      connection: 'keep-alive',
+      vary: 'Accept-Encoding, Accept-Encoding',
+      'last-modified': 'Tue, 14 Nov 2023 07:09:45 GMT',
+      etag: '"65531d39-8a4"',
+      'x-frame-options': 'SAMEORIGIN',
+      'accept-ranges': 'bytes',
+      'cache-control': 'no-store, no-cache'
+    },
+    size: 2212,
+    aborted: false,
+    rt: 113,
+    keepAliveSocket: false,
+    data: '<!DOCTYPE html><html><!--[if lt IE 10]>\n' +
+      "        <script>window.location.href='/upgrade.html'</script>\n" +
+      '    <![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, max-age=0, must-revalidate"><meta http-equiv=pragma content=no-cache><meta http-equiv=expires content=0><meta name=renderer content=webkit><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" name=viewport><link rel=icon href=/favicon.ico><title>数据统计</title><link href=/css/chunk-383b62c8.e5872ee0.css rel=prefetch><link href=/css/chunk-40f4c8c8.abf83009.css rel=prefetch><link href=/css/chunk-46e45f36.54dc0a0e.css rel=prefetch><link href=/css/chunk-52acf2d7.46aa9d08.css rel=prefetch><link href=/css/chunk-ac9d83ac.29ac8291.css rel=prefetch><link href=/js/chunk-383b62c8.fbc394c3.js rel=prefetch><link href=/js/chunk-40f4c8c8.020dd83b.js rel=prefetch><link href=/js/chunk-46e45f36.c3512765.js rel=prefetch><link href=/js/chunk-52acf2d7.77ea8bc6.js rel=prefetch><link href=/js/chunk-ac9d83ac.2620a0d7.js rel=prefetch><link href=/css/chunk-vendors.6201598b.css rel=preload as=style><link href=/css/index.dcc6590d.css rel=preload as=style><link href=/js/chunk-vendors.cafc5fed.js rel=modulepreload as=script><link href=/js/index.c6b2dc77.js rel=modulepreload as=script><link href=/css/chunk-vendors.6201598b.css rel=stylesheet><link href=/css/index.dcc6590d.css rel=stylesheet></head><body><noscript><strong>JavaScript被禁用，系统不能正常工作，请开启JavaScript</strong></noscript><div id=app></div><script type=module src=/js/chunk-vendors.cafc5fed.js></script><script type=module src=/js/index.c6b2dc77.js></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src=/js/chunk-vendors-legacy.0122c824.js nomodule></script><script src=/js/index-legacy.8aaabf9d.js nomodule></script></body></html>',
+    requestUrls: [ 'https://beta-mobile-screen.huatu.com/' ],
+    timing: null,
+    remoteAddress: '221.122.54.113',
+    remotePort: 443,
+    socketHandledRequests: 1,
+    socketHandledResponses: 1
+  }
+}
+2023-11-17 16:10:13,985 INFO 95283 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:10:13,985 INFO 95283 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:10:13,985 INFO 95283 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:10:13,985 INFO 95283 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:10:31,686 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:11:31.686
+2023-11-17 16:10:31,687 INFO 95283 [Job#1700208631686250236595158079113] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:10:31,913 INFO 95283 [-/127.0.0.1/-/225ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208631686250236595158079113] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 225ms. 
+2023-11-17 16:11:31,689 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:12:31.689
+2023-11-17 16:11:31,689 INFO 95283 [Job#1700208691688250242595393250014] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:11:31,825 INFO 95283 [-/127.0.0.1/-/135ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208691688250242595393250014] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 135ms. 
+2023-11-17 16:12:31,690 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:13:31.690
+2023-11-17 16:12:31,691 INFO 95283 [Job#1700208751690250248595537770815] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:12:31,812 INFO 95283 [-/127.0.0.1/-/121ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208751690250248595537770815] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 121ms. 
+2023-11-17 16:13:31,692 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:14:31.691
+2023-11-17 16:13:31,692 INFO 95283 [Job#1700208811691250254595678216616] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:13:32,530 INFO 95283 [-/127.0.0.1/-/837ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208811691250254595678216616] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 837ms. 
+2023-11-17 16:14:31,693 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:15:31.693
+2023-11-17 16:14:31,694 INFO 95283 [Job#1700208871692250260595814600017] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:14:32,284 INFO 95283 [-/127.0.0.1/-/589ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208871692250260595814600017] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 589ms. 
+2023-11-17 16:15:31,694 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:16:31.694
+2023-11-17 16:15:31,697 INFO 95283 [Job#1700208931694250266595964158318] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:15:32,598 INFO 95283 [-/127.0.0.1/-/900ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208931694250266595964158318] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 900ms. 
+2023-11-17 16:16:31,697 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:17:31.696
+2023-11-17 16:16:31,699 INFO 95283 [Job#1700208991696250272596170508319] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:16:31,858 INFO 95283 [-/127.0.0.1/-/159ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700208991696250272596170508319] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 159ms. 
+2023-11-17 16:17:31,699 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:18:31.698
+2023-11-17 16:17:31,703 INFO 95283 [Job#1700209051697250278596311787520] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:17:31,822 INFO 95283 [-/127.0.0.1/-/119ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209051697250278596311787520] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 118ms. 
+2023-11-17 16:18:31,701 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:19:31.701
+2023-11-17 16:18:31,702 INFO 95283 [Job#1700209111700250284596612845821] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:18:31,839 INFO 95283 [-/127.0.0.1/-/137ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209111700250284596612845821] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 136ms. 
+2023-11-17 16:19:31,702 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:20:31.702
+2023-11-17 16:19:31,702 INFO 95283 [Job#1700209171702250290596718400022] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:19:31,841 INFO 95283 [-/127.0.0.1/-/138ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209171702250290596718400022] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 138ms. 
+2023-11-17 16:20:31,703 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:21:31.703
+2023-11-17 16:20:31,704 INFO 95283 [Job#1700209231703250296596857379123] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:20:31,825 INFO 95283 [-/127.0.0.1/-/121ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209231703250296596857379123] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 121ms. 
+2023-11-17 16:21:31,704 INFO 95283 [Job#1700209291704250302596926050024] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:21:31,704 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:22:31.704
+2023-11-17 16:21:31,830 INFO 95283 [-/127.0.0.1/-/125ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209291704250302596926050024] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 125ms. 
+2023-11-17 16:22:31,707 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:23:31.707
+2023-11-17 16:22:31,714 INFO 95283 [Job#1700209351705250308597090408325] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:22:32,230 INFO 95283 [-/127.0.0.1/-/515ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209351705250308597090408325] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 515ms. 
+2023-11-17 16:23:31,712 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:24:31.712
+2023-11-17 16:23:31,715 INFO 95283 [Job#1700209411708250314597409391626] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:23:31,858 INFO 95283 [-/127.0.0.1/-/143ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209411708250314597409391626] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 143ms. 
+2023-11-17 16:24:31,714 INFO 95283 [Job#1700209471712250320597791537527] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:24:31,831 INFO 95283 [-/127.0.0.1/-/117ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209471712250320597791537527] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 117ms. 
+2023-11-17 16:24:31,714 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:25:31.714
+2023-11-17 16:25:31,717 INFO 95283 [Job#1700209531715250326598042495828] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:25:31,865 INFO 95283 [-/127.0.0.1/-/147ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209531715250326598042495828] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 147ms. 
+2023-11-17 16:25:31,716 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:26:31.715
+2023-11-17 16:26:31,719 INFO 95283 [Job#1700209591717250332598226270829] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:26:31,904 INFO 95283 [-/127.0.0.1/-/185ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209591717250332598226270829] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 184ms. 
+2023-11-17 16:26:31,718 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:27:31.718
+2023-11-17 16:27:31,720 INFO 95283 [Job#1700209651719250338598451312530] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:27:31,865 INFO 95283 [-/127.0.0.1/-/145ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209651719250338598451312530] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 145ms. 
+2023-11-17 16:27:31,719 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:28:31.719
+2023-11-17 16:28:31,724 INFO 95283 [Job#1700209711721250344598632179131] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:28:31,899 INFO 95283 [-/127.0.0.1/-/175ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209711721250344598632179131] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 175ms. 
+2023-11-17 16:28:31,721 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:29:31.721
+2023-11-17 16:29:31,722 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:30:31.722
+2023-11-17 16:29:31,722 INFO 95283 [Job#1700209771722250350598708241632] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:29:31,832 INFO 95283 [-/127.0.0.1/-/109ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209771722250350598708241632] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 109ms. 
+2023-11-17 16:30:31,726 INFO 95283 [Job#1700209831722250356598789554133] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:30:31,859 INFO 95283 [-/127.0.0.1/-/132ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209831722250356598789554133] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 132ms. 
+2023-11-17 16:30:31,723 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:31:31.723
+2023-11-17 16:31:31,725 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:32:31.725
+2023-11-17 16:31:31,727 INFO 95283 [Job#1700209891724250362598961300034] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:31:31,854 INFO 95283 [-/127.0.0.1/-/127ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209891724250362598961300034] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 127ms. 
+2023-11-17 16:32:31,726 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:33:31.726
+2023-11-17 16:32:31,727 INFO 95283 [Job#1700209951726250368599134329135] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:32:31,865 INFO 95283 [-/127.0.0.1/-/138ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&interval=1m&type=all] [Job#1700209951726250368599134329135] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 137ms. 
+2023-11-17 16:33:25,873 INFO 99300 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:33:25,873 INFO 99300 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:33:25,873 INFO 99300 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:33:25,873 INFO 99300 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:33:31,730 INFO 99300 [Job#1700210011727250374599254037536] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:33:31,728 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:34:31.728
+2023-11-17 16:33:31,928 INFO 99300 [-/127.0.0.1/-/196ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#1700210011727250374599254037536] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 195ms. 
+2023-11-17 16:34:31,731 INFO 99300 [Job#1700210071729250380599468325037] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:34:31,849 INFO 99300 [-/127.0.0.1/-/117ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#1700210071729250380599468325037] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 117ms. 
+2023-11-17 16:34:31,730 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:35:31.730
+2023-11-17 16:35:31,733 INFO 99300 [Job#1700210131731250386599654054138] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:35:31,878 INFO 99300 [-/127.0.0.1/-/144ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#1700210131731250386599654054138] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 144ms. 
+2023-11-17 16:35:31,732 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:36:31.732
+2023-11-17 16:36:31,736 INFO 99300 [Job#1700210191733250392599873995839] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:36:31,876 INFO 99300 [-/127.0.0.1/-/139ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#1700210191733250392599873995839] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 138ms. 
+2023-11-17 16:36:31,734 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:37:31.734
+2023-11-17 16:37:31,737 INFO 99300 [Job#1700210251735250398672958340] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:37:31,850 INFO 99300 [-/127.0.0.1/-/113ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#1700210251735250398672958340] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 113ms. 
+2023-11-17 16:37:31,736 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:38:31.736
+2023-11-17 16:38:31,739 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:39:31.739
+2023-11-17 16:38:31,739 INFO 99300 [Job#17002103117372504046245179141] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:38:31,861 INFO 99300 [-/127.0.0.1/-/122ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#17002103117372504046245179141] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 121ms. 
+2023-11-17 16:39:31,743 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:40:31.743
+2023-11-17 16:39:31,746 INFO 99300 [Job#17002103717402504106502879142] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:39:31,932 INFO 99300 [-/127.0.0.1/-/185ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#17002103717402504106502879142] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 185ms. 
+2023-11-17 16:40:31,745 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:41:31.745
+2023-11-17 16:40:31,745 INFO 99300 [Job#17002104317442504166974404143] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:40:31,881 INFO 99300 [-/127.0.0.1/-/135ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#17002104317442504166974404143] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 135ms. 
+2023-11-17 16:41:31,747 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:42:31.747
+2023-11-17 16:41:31,751 INFO 99300 [Job#170021049174525042261082570844] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:41:31,860 INFO 99300 [-/127.0.0.1/-/107ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#170021049174525042261082570844] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 106ms. 
+2023-11-17 16:42:31,748 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:43:31.748
+2023-11-17 16:42:31,749 INFO 99300 [Job#170021055174825042861342829145] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:42:31,889 INFO 99300 [-/127.0.0.1/-/139ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#170021055174825042861342829145] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 139ms. 
+2023-11-17 16:43:31,751 INFO 93045 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 60000ms at 2023-11-17 16:44:31.751
+2023-11-17 16:43:31,756 INFO 99300 [Job#170021061174925043461474625046] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:43:32,902 INFO 99300 [-/127.0.0.1/-/1145ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%200%20*%2F3%20*%20*%20*&type=all] [Job#170021061174925043461474625046] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 1144ms. 
+2023-11-17 16:43:54,874 INFO 1541 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:43:54,874 INFO 1541 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:43:54,874 INFO 1541 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:43:54,874 INFO 1541 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:44:20,416 INFO 1627 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:44:20,416 INFO 1627 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:44:20,416 INFO 1627 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:44:20,416 INFO 1627 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:44:30,752 INFO 1667 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:44:30,753 INFO 1667 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:44:30,753 INFO 1667 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:44:30,753 INFO 1667 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:48:57,247 INFO 2457 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42062754ms at 2023-11-18 04:30:00.001
+2023-11-17 16:48:57,247 INFO 2457 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25862753ms at 2023-11-18 00:00:00.000
+2023-11-17 16:48:57,247 INFO 2457 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25863753ms at 2023-11-18 00:00:01.000
+2023-11-17 16:48:57,248 INFO 2457 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 3662752ms at 2023-11-17 17:50:00.000
+2023-11-17 16:48:57,015 INFO 2459 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:48:57,015 INFO 2459 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:48:57,015 INFO 2459 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:48:57,015 INFO 2459 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:49:54,173 INFO 2637 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:49:54,173 INFO 2637 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:49:54,173 INFO 2637 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:49:54,173 INFO 2637 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:50:10,360 INFO 2689 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:50:10,360 INFO 2689 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:50:10,360 INFO 2689 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:50:10,360 INFO 2689 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:50:21,670 INFO 2729 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:50:21,671 INFO 2729 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:50:21,671 INFO 2729 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:50:21,671 INFO 2729 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:50:23,543 INFO 2727 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41976461ms at 2023-11-18 04:30:00.004
+2023-11-17 16:50:23,543 INFO 2727 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25776457ms at 2023-11-18 00:00:00.000
+2023-11-17 16:50:23,543 INFO 2727 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25777457ms at 2023-11-18 00:00:01.000
+2023-11-17 16:50:23,543 INFO 2727 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 36457ms at 2023-11-17 16:51:00.000
+2023-11-17 16:51:00,007 INFO 2727 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 86399996ms at 2023-11-18 16:51:00.002
+2023-11-17 16:51:00,005 INFO 2729 [Job#170021106000325047942686385411] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 16:51:00,217 INFO 2729 [-/127.0.0.1/-/210ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%2051%2016%20%3F%20*%20*&type=all] [Job#170021106000325047942686385411] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 210ms. 
+2023-11-17 16:51:31,951 INFO 2938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:51:31,951 INFO 2938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:51:31,951 INFO 2938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:51:31,951 INFO 2938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 16:53:59,430 INFO 3368 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 16:53:59,430 INFO 3368 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 16:53:59,430 INFO 3368 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 16:53:59,430 INFO 3368 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 17:06:58,756 INFO 5698 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 17:06:58,756 INFO 5698 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 17:06:58,756 INFO 5698 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 17:06:58,756 INFO 5698 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 17:10:09,382 INFO 6293 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 17:10:09,382 INFO 6293 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 17:10:09,382 INFO 6293 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 17:10:09,382 INFO 6293 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 17:10:25,013 INFO 6343 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 17:10:25,013 INFO 6343 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 17:10:25,013 INFO 6343 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 17:10:25,013 INFO 6343 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:22:08,662 INFO 19706 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:22:08,662 INFO 19706 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:22:08,662 INFO 19706 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:22:08,662 INFO 19706 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:22:11,393 INFO 19708 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:22:11,393 INFO 19708 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:22:11,393 INFO 19708 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:22:11,393 INFO 19708 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:22:23,809 INFO 19754 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:22:23,809 INFO 19754 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:22:23,809 INFO 19754 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:22:23,809 INFO 19754 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:23:07,883 INFO 19878 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:23:07,884 INFO 19878 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:23:07,884 INFO 19878 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:23:07,884 INFO 19878 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:23:25,835 INFO 19936 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36394168ms at 2023-11-18 04:30:00.003
+2023-11-17 18:23:25,836 INFO 19936 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20194165ms at 2023-11-18 00:00:00.001
+2023-11-17 18:23:25,836 INFO 19936 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20195164ms at 2023-11-18 00:00:01.000
+2023-11-17 18:23:25,836 INFO 19936 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 34164ms at 2023-11-17 18:24:00.000
+2023-11-17 18:23:25,606 INFO 19938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:23:25,606 INFO 19938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:23:25,606 INFO 19938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:23:25,606 INFO 19938 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:24:00,009 INFO 19936 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 86399993ms at 2023-11-18 18:24:00.002
+2023-11-17 18:24:00,008 INFO 19938 [Job#170021664000625103743597930001] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 18:24:00,332 ERROR 19938 [-/127.0.0.1/-/322ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%2024%2018%20%3F%20*%20*&type=all] [Job#170021664000625103743597930001] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 319ms. Error: WARN_DATA_TRUNCATED: Data truncated for column 'components_coverage_count' at row 1
+    at Sequence._packetToError (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/other/components-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/other/components-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at RDSClient.insert (/Users/kangyu/Sites/other/components-coverage/node_modules/ali-rds/lib/operator.js:159:27)
+    at UpdateCache.subscribe (/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js:26:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    sql: INSERT INTO `components_coverage`(`date`, `project`, `components_count`, `components_coverage_count`, `components_times`, `pages_count`, `pages_coverage_count`, `pages_times`) VALUES(1700216640011, 'beta-mobile-screen', 1, '0.02%', 2, 99, 2, 1) {
+  code: 'WARN_DATA_TRUNCATED',
+  errno: 1265,
+  sqlMessage: "Data truncated for column 'components_coverage_count' at row 1",
+  sqlState: '01000',
+  index: 0,
+  sql: "INSERT INTO `components_coverage`(`date`, `project`, `components_count`, `components_coverage_count`, `components_times`, `pages_count`, `pages_coverage_count`, `pages_times`) VALUES(1700216640011, 'beta-mobile-screen', 1, '0.02%', 2, 99, 2, 1)"
+}
+2023-11-17 18:24:48,312 INFO 20181 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:24:48,312 INFO 20181 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:24:48,313 INFO 20181 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:24:48,313 INFO 20181 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:25:03,286 INFO 20240 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36296717ms at 2023-11-18 04:30:00.003
+2023-11-17 18:25:03,286 INFO 20240 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20096714ms at 2023-11-18 00:00:00.000
+2023-11-17 18:25:03,286 INFO 20240 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20097714ms at 2023-11-18 00:00:01.000
+2023-11-17 18:25:03,288 INFO 20240 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 86396714ms at 2023-11-18 18:25:00.002
+2023-11-17 18:25:03,060 INFO 20242 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:25:03,060 INFO 20242 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:25:03,060 INFO 20242 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:25:03,060 INFO 20242 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:25:12,633 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 36287369ms at 2023-11-18 04:30:00.002
+2023-11-17 18:25:12,634 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 20087367ms at 2023-11-18 00:00:00.001
+2023-11-17 18:25:12,634 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 20088366ms at 2023-11-18 00:00:01.000
+2023-11-17 18:25:12,634 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 47366ms at 2023-11-17 18:26:00.000
+2023-11-17 18:25:12,431 INFO 20310 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-17 18:25:12,431 INFO 20310 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-17 18:25:12,431 INFO 20310 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-17 18:25:12,431 INFO 20310 [egg-schedule]: register schedule /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js
+2023-11-17 18:26:00,011 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 86399992ms at 2023-11-18 18:26:00.003
+2023-11-17 18:26:00,010 INFO 20310 [Job#170021676000725104943609348331] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-17 18:26:00,425 INFO 20310 [-/127.0.0.1/-/415ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%2026%2018%20%3F%20*%20*&type=all] [Job#170021676000725104943609348331] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute succeed, used 414ms. 
+2023-11-18 00:02:22,160 INFO 20310 [Job#170023694215425306769914626661] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2023-11-18 00:02:22,165 INFO 20310 [Job#170023694215725306769939191251] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2023-11-18 00:02:22,175 INFO 20310 [-/127.0.0.1/-/15ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [Job#170023694215425306769914626661] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 15ms. 
+2023-11-18 00:02:22,176 INFO 20310 [-/127.0.0.1/-/11ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [Job#170023694215725306769939191251] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 11ms. 
+2023-11-18 00:02:22,157 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86257846ms at 2023-11-19 00:00:00.003
+2023-11-18 00:02:22,158 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86258843ms at 2023-11-19 00:00:01.001

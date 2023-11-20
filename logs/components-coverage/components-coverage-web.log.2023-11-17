@@ -1,0 +1,27 @@
+2023-11-17 16:44:40,811 ERROR 1667 [-/127.0.0.1/-/1ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:409:13)
+    at Object.onceWrapper (node:events:627:28)
+    at Socket.emit (node:events:513:28)
+    at Socket._onTimeout (node:net:568:8)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+    --------------------
+    at Protocol._enqueue (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:48:16)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.getConnection (node:internal/util:350:12)
+    at Pool.query (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:202:8)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    sql: select now() as currentTime;
+errorno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "connect"
+fatal: true
+name: "ETIMEDOUTError"
+pid: 1667
+hostname: kangyu.local
+

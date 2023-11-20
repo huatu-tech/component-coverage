@@ -1,0 +1,35 @@
+2023-11-18 04:38:46,095 INFO 20310 [Job#170025352607725472609578132081] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2023-11-18 04:38:46,106 INFO 20310 [-/127.0.0.1/-/11ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [Job#170025352607725472609578132081] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 11ms. 
+2023-11-18 04:38:46,085 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 85873922ms at 2023-11-19 04:30:00.007
+2023-11-18 18:35:16,703 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js next time will execute after 85843302ms at 2023-11-19 18:26:00.004
+2023-11-18 18:35:16,707 INFO 20310 [Job#170030371669725974523229500412] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js executing by app
+2023-11-18 19:08:55,192 ERROR 20310 [-/127.0.0.1/-/2018485ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js&cron=0%2026%2018%20%3F%20*%20*&type=all] [Job#170030371669725974523229500412] /Users/kangyu/Sites/other/components-coverage/app/schedule/collect_component.js execute failed, used 2018483ms. Error: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:409:13)
+    at Object.onceWrapper (node:events:627:28)
+    at Socket.emit (node:events:513:28)
+    at Socket._onTimeout (node:net:568:8)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+    --------------------
+    at Protocol._enqueue (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:48:16)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.getConnection (node:internal/util:350:12)
+    at Pool.releaseConnection (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/kangyu/Sites/other/components-coverage/node_modules/mysql/lib/Pool.js:258:8)
+    sql: INSERT INTO `components_coverage`(`date`, `project`, `components_count`, `components_coverage_count`, `components_times`, `pages_count`, `pages_coverage_count`, `pages_times`) VALUES(1700303716707, 'beta-mobile-screen', 1, 2, 2, 99, 2, 1) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+2023-11-19 00:11:18,415 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 85721587ms at 2023-11-20 00:00:00.002
+2023-11-19 00:11:18,421 INFO 20308 [Timer] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 85722585ms at 2023-11-20 00:00:01.005
+2023-11-19 00:11:18,415 INFO 20310 [Job#170032387841326176143367530832] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2023-11-19 00:11:18,417 INFO 20310 [Job#170032387841526176143389335832] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2023-11-19 00:11:18,428 INFO 20310 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [Job#170032387841326176143367530832] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 13ms. 
+2023-11-19 00:11:18,431 INFO 20310 [-/127.0.0.1/-/14ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [Job#170032387841526176143389335832] /Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 14ms. 

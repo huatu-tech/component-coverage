@@ -1,0 +1,148 @@
+2023-11-18 00:02:22,178 INFO 20310 [egg-logrotator] app logger reload: got log-reload message
+2023-11-18 00:17:58,091 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 00:17:58,091 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 00:35:03,747 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 00:50:34,435 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 00:50:34,436 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 01:05:43,119 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 01:05:43,119 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 01:22:44,847 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 01:22:44,847 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 01:38:58,524 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 01:38:58,525 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 01:56:04,181 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 01:56:04,181 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 02:11:18,854 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 02:28:51,541 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 02:28:51,541 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 02:44:15,239 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 03:00:12,071 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 03:00:12,072 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 03:18:13,734 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 03:18:13,735 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 03:34:44,414 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 03:34:44,415 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 03:50:08,074 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 03:50:08,075 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 04:05:12,755 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 04:05:12,755 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 04:20:45,804 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 04:20:45,804 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 04:38:46,078 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 04:38:46,078 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 04:38:46,097 INFO 20310 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/vp/4l3t18qn3_n55mwnt2zhd86c0000gn/T/egg-multipart-tmp/components-coverage"
+2023-11-18 04:38:46,106 INFO 20310 [-/127.0.0.1/-/11ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2023-11-18 04:55:20,938 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 04:55:20,938 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 05:12:16,511 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 05:28:47,287 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 06:02:23,909 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 07:09:48,883 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 07:09:48,884 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 07:25:25,421 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 07:25:25,421 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 07:40:57,111 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 07:40:57,111 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 07:57:12,833 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 07:57:12,833 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 08:14:27,671 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 08:14:27,671 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 08:30:51,169 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 08:30:51,169 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 08:46:44,840 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 08:46:44,840 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 09:02:26,511 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 09:02:26,511 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 09:20:18,172 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 09:20:18,173 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 09:36:28,836 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 09:36:28,836 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 09:53:25,452 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 09:53:25,453 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 10:10:23,240 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 10:26:43,902 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 10:26:43,902 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 10:42:56,662 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 10:42:56,662 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 11:00:40,289 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 11:00:40,294 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 11:17:02,036 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 11:17:02,036 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 11:49:42,509 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 11:49:42,509 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 12:05:40,104 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 12:05:40,104 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 12:22:39,712 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 12:22:39,713 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 12:27:57,094 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 12:27:57,094 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 12:46:02,240 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 12:46:02,240 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 13:01:56,372 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 13:01:56,372 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 13:18:55,756 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 13:18:55,757 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 13:35:47,540 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 13:35:47,540 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 13:51:49,494 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 13:51:49,494 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 14:09:59,617 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 14:09:59,618 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 14:43:17,086 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 14:43:17,086 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 15:00:16,761 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 15:00:16,762 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 15:16:18,428 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 15:33:21,095 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 15:33:21,095 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 15:49:23,787 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 15:49:23,787 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 16:04:54,476 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 16:04:54,476 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 16:20:27,390 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 16:20:27,390 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 16:36:25,073 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 16:36:25,073 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 16:53:59,715 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 16:53:59,715 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 17:42:14,641 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 17:59:52,292 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 17:59:52,292 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 18:17:16,016 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 18:35:16,697 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 18:52:10,382 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 19:08:55,193 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 19:24:55,597 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 19:24:55,597 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 19:40:52,203 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 19:40:52,204 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 19:58:27,857 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 19:58:27,857 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 20:15:43,489 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 20:15:43,489 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 20:30:50,135 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 20:30:50,135 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 20:48:23,954 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 20:48:23,954 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 21:09:49,463 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 21:09:49,463 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 21:25:55,312 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 21:41:35,349 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 21:41:35,349 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 21:59:35,990 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 21:59:35,991 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 22:34:43,347 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 22:34:43,348 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 22:50:14,037 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 22:50:14,037 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 23:06:49,685 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 23:23:16,367 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 23:23:16,370 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 23:39:19,049 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-18 23:54:53,738 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-18 23:54:53,741 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-19 00:11:18,413 WARN 20310 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2023-11-19 00:11:18,414 WARN 20310 [ClusterClient:Watcher] follower closed, and try to init it again
+2023-11-19 00:11:18,428 INFO 20310 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-logrotator] clean all log before 31 days
+2023-11-19 00:11:18,431 INFO 20310 [-/127.0.0.1/-/14ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] broadcast log-reload
+2023-11-19 00:11:18,431 INFO 20310 [-/127.0.0.1/-/14ms SCHEDULE /__schedule?path=/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-logrotator] rotate files success by DayRotator, files ["/Users/kangyu/Sites/other/components-coverage/logs/components-coverage/common-error.log -> /Users/kangyu/Sites/other/components-coverage/logs/components-coverage/common-error.log.2023-11-18","/Users/kangyu/Sites/other/components-coverage/logs/components-coverage/components-coverage-web.log -> /Users/kangyu/Sites/other/components-coverage/logs/components-coverage/components-coverage-web.log.2023-11-18","/Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-web.log -> /Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-web.log.2023-11-18","/Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-schedule.log -> /Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-schedule.log.2023-11-18","/Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-agent.log -> /Users/kangyu/Sites/other/components-coverage/logs/components-coverage/egg-agent.log.2023-11-18"]
