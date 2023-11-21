@@ -102,26 +102,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/kangyu/Sites/component-coverage/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-session/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-security/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-jsonp/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-onerror/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-i18n/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-watcher/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-schedule/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-development/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-static/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-view/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-mysql/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/locales",
-        "/Users/kangyu/Sites/other/components-coverage/config/locales"
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-session/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-security/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-jsonp/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-onerror/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-i18n/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-watcher/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-schedule/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-development/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-static/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-view/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg-mysql/config/locales",
+        "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/locales",
+        "/Users/kangyu/Sites/component-coverage/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -132,8 +132,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/kangyu/Sites/component-coverage/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/kangyu/Sites/component-coverage/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -184,14 +184,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/kangyu/Sites/other/components-coverage/app/public",
+      "dir": "/Users/kangyu/Sites/component-coverage/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/kangyu/Sites/other/components-coverage/app/view",
+      "root": "/Users/kangyu/Sites/component-coverage/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -267,9 +267,9 @@
       "author": "kangyu@huatu.com",
       "license": "MIT"
     },
-    "baseDir": "/Users/kangyu/Sites/other/components-coverage",
+    "baseDir": "/Users/kangyu/Sites/component-coverage",
     "HOME": "/Users/kangyu",
-    "rundir": "/Users/kangyu/Sites/other/components-coverage/run",
+    "rundir": "/Users/kangyu/Sites/component-coverage/run",
     "dump": {
       "ignore": "<Set>",
       "timing": {
@@ -305,7 +305,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/kangyu/Sites/other/components-coverage/logs/components-coverage",
+      "dir": "/Users/kangyu/Sites/component-coverage/logs/components-coverage",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -392,8 +392,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-onerror",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-onerror",
       "version": "2.2.0"
     },
     "session": {
@@ -403,8 +403,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-session",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -414,8 +414,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-i18n",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -425,8 +425,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-watcher",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -441,8 +441,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-multipart",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-multipart",
       "version": "3.3.0"
     },
     "security": {
@@ -454,8 +454,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-security",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-security",
       "version": "3.1.0"
     },
     "development": {
@@ -469,8 +469,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-development",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -482,8 +482,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-logrotator",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -493,8 +493,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-schedule",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-schedule",
       "version": "4.0.0",
       "dependents": [
         "logrotator"
@@ -507,8 +507,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-static",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-static",
       "version": "2.3.1"
     },
     "jsonp": {
@@ -520,8 +520,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-jsonp",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -531,8 +531,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-view",
+      "from": "/Users/kangyu/Sites/component-coverage/node_modules/egg/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-view",
       "version": "2.1.4"
     },
     "mysql": {
@@ -542,14 +542,14 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/kangyu/Sites/other/components-coverage/config/plugin.js",
-      "path": "/Users/kangyu/Sites/other/components-coverage/node_modules/egg-mysql",
+      "from": "/Users/kangyu/Sites/component-coverage/config/plugin.js",
+      "path": "/Users/kangyu/Sites/component-coverage/node_modules/egg-mysql",
       "version": "4.0.0"
     }
   },
   "appInfo": {
     "name": "components-coverage",
-    "baseDir": "/Users/kangyu/Sites/other/components-coverage",
+    "baseDir": "/Users/kangyu/Sites/component-coverage",
     "env": "local",
     "scope": "",
     "HOME": "/Users/kangyu",
@@ -598,6 +598,6 @@
       "author": "kangyu@huatu.com",
       "license": "MIT"
     },
-    "root": "/Users/kangyu/Sites/other/components-coverage"
+    "root": "/Users/kangyu/Sites/component-coverage"
   }
 }
