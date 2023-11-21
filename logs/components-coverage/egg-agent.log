@@ -3594,3 +3594,318 @@ hostname: kangyu.local
 2023-11-21 11:34:56,397 INFO 65763 [egg:core] dump config after ready, 2ms
 2023-11-21 11:35:41,859 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js change
 2023-11-21 11:35:41,654 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177645,"size":1067,"blocks":8,"atimeMs":1700537741653.0618,"mtimeMs":1700537741601.0684,"ctimeMs":1700537741601.0684,"birthtimeMs":1700205767371.1472,"atime":"2023-11-21T03:35:41.653Z","mtime":"2023-11-21T03:35:41.601Z","ctime":"2023-11-21T03:35:41.601Z","birthtime":"2023-11-17T07:22:47.371Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:41:15,223 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:41:15,020 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":532,"blocks":8,"atimeMs":1700538074988.3801,"mtimeMs":1700538074957.7207,"ctimeMs":1700538074957.7207,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:41:14.988Z","mtime":"2023-11-21T03:41:14.958Z","ctime":"2023-11-21T03:41:14.958Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:41:51,238 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:41:51,036 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":316,"blocks":8,"atimeMs":1700538111034.777,"mtimeMs":1700538110973.3906,"ctimeMs":1700538110973.3906,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:41:51.035Z","mtime":"2023-11-21T03:41:50.973Z","ctime":"2023-11-21T03:41:50.973Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:41:56,704 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:41:56,451 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":317,"blocks":8,"atimeMs":1700538113904.3013,"mtimeMs":1700538116439.8425,"ctimeMs":1700538116439.8425,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:41:53.904Z","mtime":"2023-11-21T03:41:56.440Z","ctime":"2023-11-21T03:41:56.440Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:41:56,503 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":317,"blocks":8,"atimeMs":1700538116470.8335,"mtimeMs":1700538116439.8425,"ctimeMs":1700538116439.8425,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:41:56.471Z","mtime":"2023-11-21T03:41:56.440Z","ctime":"2023-11-21T03:41:56.440Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:23,334 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:42:23,131 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":754,"blocks":8,"atimeMs":1700538143130.4377,"mtimeMs":1700538143069.3936,"ctimeMs":1700538143069.3936,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:42:23.130Z","mtime":"2023-11-21T03:42:23.069Z","ctime":"2023-11-21T03:42:23.069Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:38,832 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:42:38,630 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":382,"blocks":8,"atimeMs":1700538158630.4685,"mtimeMs":1700538158568.2969,"ctimeMs":1700538158568.2969,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:42:38.630Z","mtime":"2023-11-21T03:42:38.568Z","ctime":"2023-11-21T03:42:38.568Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:47,267 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:42:47,014 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":453,"blocks":8,"atimeMs":1700538160221.4915,"mtimeMs":1700538167003.2559,"ctimeMs":1700538167003.2559,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:42:40.221Z","mtime":"2023-11-21T03:42:47.003Z","ctime":"2023-11-21T03:42:47.003Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:47,065 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":453,"blocks":8,"atimeMs":1700538167034.995,"mtimeMs":1700538167003.2559,"ctimeMs":1700538167003.2559,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:42:47.035Z","mtime":"2023-11-21T03:42:47.003Z","ctime":"2023-11-21T03:42:47.003Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:54,833 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:42:54,579 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":991,"blocks":8,"atimeMs":1700538144377.0137,"mtimeMs":1700538174568.1516,"ctimeMs":1700538174568.1516,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:42:24.377Z","mtime":"2023-11-21T03:42:54.568Z","ctime":"2023-11-21T03:42:54.568Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:42:54,630 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":991,"blocks":8,"atimeMs":1700538174600.1538,"mtimeMs":1700538174568.1516,"ctimeMs":1700538174568.1516,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:42:54.600Z","mtime":"2023-11-21T03:42:54.568Z","ctime":"2023-11-21T03:42:54.568Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:50:05,608 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/kangyu/Sites/component-coverage/app/service","stat":{"dev":16777231,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68273293,"size":64,"blocks":0,"atimeMs":1700538605544.697,"mtimeMs":1700538605544.697,"ctimeMs":1700538605544.697,"birthtimeMs":1700538605544.697,"atime":"2023-11-21T03:50:05.545Z","mtime":"2023-11-21T03:50:05.545Z","ctime":"2023-11-21T03:50:05.545Z","birthtime":"2023-11-21T03:50:05.545Z"},"remove":false,"isDirectory":true,"isFile":false}
+2023-11-21 11:50:15,235 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/kangyu/Sites/component-coverage/app/service/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68273312,"size":0,"blocks":0,"atimeMs":1700538615222.8005,"mtimeMs":1700538615222.8005,"ctimeMs":1700538615222.8005,"birthtimeMs":1700538615222.8005,"atime":"2023-11-21T03:50:15.223Z","mtime":"2023-11-21T03:50:15.223Z","ctime":"2023-11-21T03:50:15.223Z","birthtime":"2023-11-21T03:50:15.223Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:50:15,438 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/service/site.js rename
+2023-11-21 11:50:38,371 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/service/site.js change
+2023-11-21 11:50:38,169 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/service/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68273312,"size":81,"blocks":8,"atimeMs":1700538638167.6055,"mtimeMs":1700538638106.215,"ctimeMs":1700538638106.215,"birthtimeMs":1700538615222.8005,"atime":"2023-11-21T03:50:38.168Z","mtime":"2023-11-21T03:50:38.106Z","ctime":"2023-11-21T03:50:38.106Z","birthtime":"2023-11-21T03:50:15.223Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:51:09,709 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/service/site.js change
+2023-11-21 11:51:09,507 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/service/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68273312,"size":705,"blocks":8,"atimeMs":1700538669506.283,"mtimeMs":1700538669444.2603,"ctimeMs":1700538669444.2603,"birthtimeMs":1700538615222.8005,"atime":"2023-11-21T03:51:09.506Z","mtime":"2023-11-21T03:51:09.444Z","ctime":"2023-11-21T03:51:09.444Z","birthtime":"2023-11-21T03:50:15.223Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:04,449 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":993,"blocks":8,"atimeMs":1700538724448.578,"mtimeMs":1700538724386.3008,"ctimeMs":1700538724386.3008,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:04.449Z","mtime":"2023-11-21T03:52:04.386Z","ctime":"2023-11-21T03:52:04.386Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:04,651 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:12,054 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:11,803 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":962,"blocks":8,"atimeMs":1700538725902.6455,"mtimeMs":1700538731790.4802,"ctimeMs":1700538731790.4802,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:05.903Z","mtime":"2023-11-21T03:52:11.790Z","ctime":"2023-11-21T03:52:11.790Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:11,853 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":962,"blocks":8,"atimeMs":1700538731852.5613,"mtimeMs":1700538731790.4802,"ctimeMs":1700538731790.4802,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:11.853Z","mtime":"2023-11-21T03:52:11.790Z","ctime":"2023-11-21T03:52:11.790Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:34,209 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:34,008 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":996,"blocks":8,"atimeMs":1700538753978.727,"mtimeMs":1700538753946.5535,"ctimeMs":1700538753946.5535,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:33.979Z","mtime":"2023-11-21T03:52:33.947Z","ctime":"2023-11-21T03:52:33.947Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:44,190 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:43,937 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":939,"blocks":8,"atimeMs":1700538756077.8987,"mtimeMs":1700538763925.1125,"ctimeMs":1700538763925.1125,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:36.078Z","mtime":"2023-11-21T03:52:43.925Z","ctime":"2023-11-21T03:52:43.925Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:43,988 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":939,"blocks":8,"atimeMs":1700538763956.8572,"mtimeMs":1700538763925.1125,"ctimeMs":1700538763925.1125,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:43.957Z","mtime":"2023-11-21T03:52:43.925Z","ctime":"2023-11-21T03:52:43.925Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:57,838 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:57,586 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":916,"blocks":8,"atimeMs":1700538765868.088,"mtimeMs":1700538777576.815,"ctimeMs":1700538777576.815,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:45.868Z","mtime":"2023-11-21T03:52:57.577Z","ctime":"2023-11-21T03:52:57.577Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:57,637 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":916,"blocks":8,"atimeMs":1700538777609.1807,"mtimeMs":1700538777576.815,"ctimeMs":1700538777576.815,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:57.609Z","mtime":"2023-11-21T03:52:57.577Z","ctime":"2023-11-21T03:52:57.577Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:59,812 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:52:59,560 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":916,"blocks":8,"atimeMs":1700538778950.8691,"mtimeMs":1700538779548.2793,"ctimeMs":1700538779548.2793,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:58.951Z","mtime":"2023-11-21T03:52:59.548Z","ctime":"2023-11-21T03:52:59.548Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:52:59,611 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":916,"blocks":8,"atimeMs":1700538779579.1133,"mtimeMs":1700538779548.2793,"ctimeMs":1700538779548.2793,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:52:59.579Z","mtime":"2023-11-21T03:52:59.548Z","ctime":"2023-11-21T03:52:59.548Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:53:17,267 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:53:17,065 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":899,"blocks":8,"atimeMs":1700538797036.8384,"mtimeMs":1700538797004.3633,"ctimeMs":1700538797004.3633,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:53:17.037Z","mtime":"2023-11-21T03:53:17.004Z","ctime":"2023-11-21T03:53:17.004Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:53:27,113 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:53:26,861 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1102,"blocks":8,"atimeMs":1700538797036.8384,"mtimeMs":1700538806848.8694,"ctimeMs":1700538806848.8694,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:53:17.037Z","mtime":"2023-11-21T03:53:26.849Z","ctime":"2023-11-21T03:53:26.849Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:53:26,911 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1102,"blocks":8,"atimeMs":1700538806880.8816,"mtimeMs":1700538806848.8694,"ctimeMs":1700538806848.8694,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:53:26.881Z","mtime":"2023-11-21T03:53:26.849Z","ctime":"2023-11-21T03:53:26.849Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:53:56,481 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":522,"blocks":8,"atimeMs":1700538836449.95,"mtimeMs":1700538836417.969,"ctimeMs":1700538836417.969,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:53:56.450Z","mtime":"2023-11-21T03:53:56.418Z","ctime":"2023-11-21T03:53:56.418Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:53:56,684 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:55:23,070 WARN 65763 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/service/site.js change
+2023-11-21 11:55:22,867 INFO 65763 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/service/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68273312,"size":735,"blocks":8,"atimeMs":1700538922835.6663,"mtimeMs":1700538922804.169,"ctimeMs":1700538922804.169,"birthtimeMs":1700538615222.8005,"atime":"2023-11-21T03:55:22.836Z","mtime":"2023-11-21T03:55:22.804Z","ctime":"2023-11-21T03:55:22.804Z","birthtime":"2023-11-21T03:50:15.223Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:55:28,880 INFO 69864 [egg:logger] init all loggers with options: {"dir":"/Users/kangyu/Sites/component-coverage/logs/components-coverage","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"components-coverage-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false,"_onPropagate":null}}
+2023-11-21 11:55:28,884 INFO 69864 [egg:core] dump config after load, 2ms
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: ["/Users/kangyu/Sites/component-coverage/app","/Users/kangyu/Sites/component-coverage/config","/Users/kangyu/Sites/component-coverage/mocks","/Users/kangyu/Sites/component-coverage/mocks_proxy","/Users/kangyu/Sites/component-coverage/app.js"]
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app"
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/config"
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks"
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks_proxy"
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app.js"
+2023-11-21 11:55:28,896 INFO 69864 [egg-watcher:agent] watcher start success
+2023-11-21 11:55:28,912 INFO 69864 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [567ms] - #0 Process Start
+                                            ▇▇▇▇▇ [75ms] - #1 Application Start
+                                            ▇ [2ms] - #2 Load Plugin
+                                            ▇ [5ms] - #3 Load Config
+                                            ▇ [0ms] - #4 Require(0) config/config.default.js
+                                            ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                            ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                            ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                            ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                            ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                            ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                            ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                            ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                            ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                            ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                            ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                            ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                            ▇ [0ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                            ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                            ▇ [0ms] - #19 Require(15) config/config.default.js
+                                            ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                            ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                            ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                            ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                            ▇ [16ms] - #24 Load extend/agent.js
+                                            ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                            ▇ [14ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                              ▇ [0ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                              ▇ [6ms] - #28 Load extend/context.js
+                                              ▇ [1ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                              ▇ [1ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                              ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                              ▇ [3ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                              ▇ [0ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                              ▇ [0ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                              ▇ [11ms] - #35 Load agent.js
+                                              ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                              ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                              ▇ [1ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                              ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                              ▇ [7ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                               ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                               ▇ [2ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                               ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                               ▇ [15ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                               ▇ [9ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                               ▇▇ [28ms] - #46 Before Start in node_modules/egg-development/agent.js:12:9
+2023-11-21 11:55:28,912 INFO 69864 [egg:core] dump config after ready, 2ms
+2023-11-21 11:56:04,903 INFO 69864 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/router.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177651,"size":521,"blocks":8,"atimeMs":1700538964869.655,"mtimeMs":1700538964839.1558,"ctimeMs":1700538964839.1558,"birthtimeMs":1700202243925.0273,"atime":"2023-11-21T03:56:04.870Z","mtime":"2023-11-21T03:56:04.839Z","ctime":"2023-11-21T03:56:04.839Z","birthtime":"2023-11-17T06:24:03.925Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:56:05,110 WARN 69864 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/router.js change
+2023-11-21 11:56:12,364 INFO 70036 [egg:logger] init all loggers with options: {"dir":"/Users/kangyu/Sites/component-coverage/logs/components-coverage","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"components-coverage-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false,"_onPropagate":null}}
+2023-11-21 11:56:12,368 INFO 70036 [egg:core] dump config after load, 2ms
+2023-11-21 11:56:12,380 INFO 70036 [egg-watcher] Start watching: ["/Users/kangyu/Sites/component-coverage/app","/Users/kangyu/Sites/component-coverage/config","/Users/kangyu/Sites/component-coverage/mocks","/Users/kangyu/Sites/component-coverage/mocks_proxy","/Users/kangyu/Sites/component-coverage/app.js"]
+2023-11-21 11:56:12,380 INFO 70036 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app"
+2023-11-21 11:56:12,381 INFO 70036 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/config"
+2023-11-21 11:56:12,381 INFO 70036 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks"
+2023-11-21 11:56:12,381 INFO 70036 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks_proxy"
+2023-11-21 11:56:12,381 INFO 70036 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app.js"
+2023-11-21 11:56:12,381 INFO 70036 [egg-watcher:agent] watcher start success
+2023-11-21 11:56:12,391 INFO 70036 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [549ms] - #0 Process Start
+                                           ▇▇▇▇▇▇ [79ms] - #1 Application Start
+                                           ▇ [3ms] - #2 Load Plugin
+                                            ▇ [5ms] - #3 Load Config
+                                            ▇ [0ms] - #4 Require(0) config/config.default.js
+                                            ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                            ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                            ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                            ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                            ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                            ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                            ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                            ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                            ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                            ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                            ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                            ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                            ▇ [0ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                            ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                            ▇ [0ms] - #19 Require(15) config/config.default.js
+                                            ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                            ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                            ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                            ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                            ▇ [17ms] - #24 Load extend/agent.js
+                                            ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                            ▇ [15ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                             ▇ [0ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                             ▇ [12ms] - #28 Load extend/context.js
+                                             ▇ [4ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                              ▇ [1ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                              ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                              ▇ [5ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                              ▇ [0ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                              ▇ [0ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                              ▇ [13ms] - #35 Load agent.js
+                                              ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                              ▇ [1ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                              ▇ [1ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                              ▇ [0ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                              ▇ [8ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                               ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                               ▇ [3ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                               ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                                ▇ [16ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [11ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [22ms] - #46 Before Start in node_modules/egg-development/agent.js:12:9
+2023-11-21 11:56:12,391 INFO 70036 [egg:core] dump config after ready, 2ms
+2023-11-21 11:58:44,347 WARN 70036 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:58:44,141 INFO 70036 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1096,"blocks":8,"atimeMs":1700539124137.449,"mtimeMs":1700539124075.3516,"ctimeMs":1700539124075.3516,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:58:44.137Z","mtime":"2023-11-21T03:58:44.075Z","ctime":"2023-11-21T03:58:44.075Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:58:56,504 WARN 70036 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:58:56,250 INFO 70036 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1084,"blocks":8,"atimeMs":1700539126864.3203,"mtimeMs":1700539136239.1973,"ctimeMs":1700539136239.1973,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:58:46.864Z","mtime":"2023-11-21T03:58:56.239Z","ctime":"2023-11-21T03:58:56.239Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:58:56,302 INFO 70036 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1084,"blocks":8,"atimeMs":1700539136271.2334,"mtimeMs":1700539136239.1973,"ctimeMs":1700539136239.1973,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:58:56.271Z","mtime":"2023-11-21T03:58:56.239Z","ctime":"2023-11-21T03:58:56.239Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:59:20,189 WARN 70036 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 11:59:19,987 INFO 70036 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1105,"blocks":8,"atimeMs":1700539159955.818,"mtimeMs":1700539159924.2607,"ctimeMs":1700539159924.2607,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T03:59:19.956Z","mtime":"2023-11-21T03:59:19.924Z","ctime":"2023-11-21T03:59:19.924Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 11:59:25,521 INFO 70669 [egg:logger] init all loggers with options: {"dir":"/Users/kangyu/Sites/component-coverage/logs/components-coverage","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"components-coverage-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false,"_onPropagate":null}}
+2023-11-21 11:59:25,524 INFO 70669 [egg:core] dump config after load, 2ms
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: ["/Users/kangyu/Sites/component-coverage/app","/Users/kangyu/Sites/component-coverage/config","/Users/kangyu/Sites/component-coverage/mocks","/Users/kangyu/Sites/component-coverage/mocks_proxy","/Users/kangyu/Sites/component-coverage/app.js"]
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app"
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/config"
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks"
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks_proxy"
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app.js"
+2023-11-21 11:59:25,536 INFO 70669 [egg-watcher:agent] watcher start success
+2023-11-21 11:59:25,546 INFO 70669 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [545ms] - #0 Process Start
+                                            ▇▇▇▇▇ [73ms] - #1 Application Start
+                                            ▇ [2ms] - #2 Load Plugin
+                                            ▇ [5ms] - #3 Load Config
+                                            ▇ [0ms] - #4 Require(0) config/config.default.js
+                                            ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                            ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                            ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                            ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                            ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                            ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                            ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                            ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                            ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                            ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                            ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                            ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                            ▇ [0ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                            ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                            ▇ [0ms] - #19 Require(15) config/config.default.js
+                                            ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                            ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                            ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                            ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                            ▇ [17ms] - #24 Load extend/agent.js
+                                            ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                            ▇ [15ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                              ▇ [0ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                              ▇ [6ms] - #28 Load extend/context.js
+                                              ▇ [1ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                              ▇ [1ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                              ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                              ▇ [3ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                              ▇ [0ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                              ▇ [0ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                              ▇ [14ms] - #35 Load agent.js
+                                              ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                              ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                              ▇ [0ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                              ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                              ▇ [9ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                               ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                               ▇ [2ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                               ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                                ▇ [14ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [9ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [22ms] - #46 Before Start in node_modules/egg-development/agent.js:12:9
+2023-11-21 11:59:25,547 INFO 70669 [egg:core] dump config after ready, 2ms
+2023-11-21 12:42:53,269 ERROR 70669 nodejs.ClusterClientNoResponseError: client no response in 307036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/kangyu/Sites/component-coverage/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+name: "ClusterClientNoResponseError"
+pid: 70669
+hostname: kangyu.local
+
+2023-11-21 12:59:26,275 ERROR 70669 nodejs.ClusterClientNoResponseError: client no response in 953003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/kangyu/Sites/component-coverage/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+name: "ClusterClientNoResponseError"
+pid: 70669
+hostname: kangyu.local
+
+2023-11-21 13:32:14,153 WARN 70669 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 13:32:13,944 INFO 70669 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1119,"blocks":8,"atimeMs":1700544733903.0076,"mtimeMs":1700544733871.75,"ctimeMs":1700544733871.75,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T05:32:13.903Z","mtime":"2023-11-21T05:32:13.872Z","ctime":"2023-11-21T05:32:13.872Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 13:32:22,985 INFO 83304 [egg:logger] init all loggers with options: {"dir":"/Users/kangyu/Sites/component-coverage/logs/components-coverage","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"components-coverage-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false,"_onPropagate":null}}
+2023-11-21 13:32:22,989 INFO 83304 [egg:core] dump config after load, 2ms
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: ["/Users/kangyu/Sites/component-coverage/app","/Users/kangyu/Sites/component-coverage/config","/Users/kangyu/Sites/component-coverage/mocks","/Users/kangyu/Sites/component-coverage/mocks_proxy","/Users/kangyu/Sites/component-coverage/app.js"]
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app"
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/config"
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks"
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/mocks_proxy"
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher] Start watching: "/Users/kangyu/Sites/component-coverage/app.js"
+2023-11-21 13:32:23,002 INFO 83304 [egg-watcher:agent] watcher start success
+2023-11-21 13:32:23,012 INFO 83304 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [557ms] - #0 Process Start
+                                           ▇▇▇▇▇▇ [82ms] - #1 Application Start
+                                           ▇ [2ms] - #2 Load Plugin
+                                           ▇ [5ms] - #3 Load Config
+                                           ▇ [0ms] - #4 Require(0) config/config.default.js
+                                           ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                           ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                            ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                            ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                            ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                            ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                            ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                            ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                            ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                            ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                            ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                            ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                            ▇ [0ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                            ▇ [1ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                            ▇ [0ms] - #19 Require(15) config/config.default.js
+                                            ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                            ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                            ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                            ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                            ▇ [17ms] - #24 Load extend/agent.js
+                                            ▇ [0ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                            ▇ [15ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                             ▇ [0ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                             ▇ [13ms] - #28 Load extend/context.js
+                                             ▇ [3ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                              ▇ [1ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                              ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                              ▇ [6ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                              ▇ [1ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                              ▇ [0ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                              ▇ [14ms] - #35 Load agent.js
+                                              ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                              ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                              ▇ [1ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                              ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                              ▇ [9ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                               ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                               ▇ [3ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                               ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                               ▇ [16ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                               ▇ [11ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [23ms] - #46 Before Start in node_modules/egg-development/agent.js:12:9
+2023-11-21 13:32:23,012 INFO 83304 [egg:core] dump config after ready, 2ms
+2023-11-21 13:33:30,425 WARN 83304 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 13:33:30,221 INFO 83304 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1112,"blocks":8,"atimeMs":1700544810189.327,"mtimeMs":1700544810158.081,"ctimeMs":1700544810158.081,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T05:33:30.189Z","mtime":"2023-11-21T05:33:30.158Z","ctime":"2023-11-21T05:33:30.158Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 13:33:34,811 WARN 83304 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 13:33:34,557 INFO 83304 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1098,"blocks":8,"atimeMs":1700544812331.7803,"mtimeMs":1700544814546.0693,"ctimeMs":1700544814546.0693,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T05:33:32.332Z","mtime":"2023-11-21T05:33:34.546Z","ctime":"2023-11-21T05:33:34.546Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 13:33:34,608 INFO 83304 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1098,"blocks":8,"atimeMs":1700544814577.8665,"mtimeMs":1700544814546.0693,"ctimeMs":1700544814546.0693,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T05:33:34.578Z","mtime":"2023-11-21T05:33:34.546Z","ctime":"2023-11-21T05:33:34.546Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-11-21 13:35:33,438 WARN 83304 [agent:development] reload worker because /Users/kangyu/Sites/component-coverage/app/controller/site.js change
+2023-11-21 13:35:33,235 INFO 83304 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/kangyu/Sites/component-coverage/app/controller/site.js","stat":{"dev":16777231,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":68177650,"size":1073,"blocks":8,"atimeMs":1700544933203.711,"mtimeMs":1700544933172.1892,"ctimeMs":1700544933172.1892,"birthtimeMs":1700202971946.5056,"atime":"2023-11-21T05:35:33.204Z","mtime":"2023-11-21T05:35:33.172Z","ctime":"2023-11-21T05:35:33.172Z","birthtime":"2023-11-17T06:36:11.947Z"},"remove":false,"isDirectory":false,"isFile":true}

@@ -937,3 +937,364 @@ hostname: kangyu.local
   index: 0,
   sql: "INSERT INTO components_coverage (date,component,project,components_coverage_count,pages_coverage_count,components_count,pages_count,components_times,pages_times) VALUES '1700535540318', 'bar', 'https://beta-mobile-screen.huatu.com', '2.94%', '45.22%', 102, 115, 3, 87"
 }
+2023-11-21 11:54:40,993 ERROR 69503 [-/::1/-/3ms GET /site/list] nodejs.TypeError: this.ctx.service.site.list is not a function
+    at List.list (/Users/kangyu/Sites/component-coverage/app/controller/site.js:8:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/kangyu/Sites/component-coverage/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 69503
+hostname: kangyu.local
+
+2023-11-21 11:56:06,344 ERROR 69995 [-/::1/-/89ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 69995
+hostname: kangyu.local
+
+2023-11-21 11:56:13,531 ERROR 70038 [-/::1/-/109ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:56:14,932 ERROR 70038 [-/::1/-/82ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:56:15,216 ERROR 70038 [-/::1/-/74ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:56:15,494 ERROR 70038 [-/::1/-/90ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:56:15,734 ERROR 70038 [-/::1/-/77ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:56:33,723 ERROR 70038 [-/::1/-/1751ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:44:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70038
+hostname: kangyu.local
+
+2023-11-21 11:59:30,620 ERROR 70671 [-/::1/-/85ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:45:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 70671
+hostname: kangyu.local
+
+2023-11-21 12:42:53,267 ERROR 70669 nodejs.ClusterClientNoResponseError: client no response in 307036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/kangyu/Sites/component-coverage/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+name: "ClusterClientNoResponseError"
+pid: 70669
+hostname: kangyu.local
+
+2023-11-21 12:59:26,274 ERROR 70669 nodejs.ClusterClientNoResponseError: client no response in 953003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/kangyu/Sites/component-coverage/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+name: "ClusterClientNoResponseError"
+pid: 70669
+hostname: kangyu.local
+
+2023-11-21 13:32:16,189 ERROR 83229 [-/::1/-/78ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:45:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 83229
+hostname: kangyu.local
+
+2023-11-21 13:32:24,627 ERROR 83306 [-/::1/-/101ms GET /site/query?id=1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Sequence._packetToError (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    --------------------
+    at Pool.query (/Users/kangyu/Sites/component-coverage/node_modules/mysql/lib/Pool.js:199:23)
+    at node:internal/util:364:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:350:12)
+    at RDSClient._query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/client.js:33:33)
+    at RDSClient.query (/Users/kangyu/Sites/component-coverage/node_modules/ali-rds/lib/operator.js:62:31)
+    at SiteService.query (/Users/kangyu/Sites/component-coverage/app/service/site.js:20:41)
+    at List.query (/Users/kangyu/Sites/component-coverage/app/controller/site.js:45:48)
+    at Object.callFn (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/kangyu/Sites/component-coverage/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    sql: select * from statistics_site where id = undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from statistics_site where id = undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 83306
+hostname: kangyu.local
+

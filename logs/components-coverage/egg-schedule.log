@@ -706,3 +706,143 @@
 2023-11-21 11:35:42,342 INFO 65896 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
 2023-11-21 11:35:42,342 INFO 65896 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
 2023-11-21 11:35:42,342 INFO 65896 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:41:15,732 INFO 66974 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:41:15,732 INFO 66974 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:41:15,732 INFO 66974 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:41:15,732 INFO 66974 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:41:51,769 INFO 67083 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:41:51,769 INFO 67083 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:41:51,769 INFO 67083 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:41:51,769 INFO 67083 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:41:57,157 INFO 67108 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:41:57,157 INFO 67108 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:41:57,157 INFO 67108 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:41:57,157 INFO 67108 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:42:23,805 INFO 67210 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:42:23,805 INFO 67210 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:42:23,805 INFO 67210 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:42:23,805 INFO 67210 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:42:39,305 INFO 67267 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:42:39,305 INFO 67267 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:42:39,305 INFO 67267 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:42:39,305 INFO 67267 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:42:55,267 INFO 67330 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:42:55,267 INFO 67330 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:42:55,267 INFO 67330 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:42:55,267 INFO 67330 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:50:15,963 INFO 68689 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:50:15,963 INFO 68689 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:50:15,963 INFO 68689 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:50:15,963 INFO 68689 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:50:38,825 INFO 68762 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:50:38,825 INFO 68762 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:50:38,825 INFO 68762 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:50:38,825 INFO 68762 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:51:10,223 INFO 68865 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:51:10,223 INFO 68865 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:51:10,223 INFO 68865 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:51:10,223 INFO 68865 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:52:05,248 INFO 69063 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:52:05,248 INFO 69063 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:52:05,248 INFO 69063 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:52:05,248 INFO 69063 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:52:12,524 INFO 69094 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:52:12,524 INFO 69094 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:52:12,524 INFO 69094 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:52:12,524 INFO 69094 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:52:34,794 INFO 69170 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:52:34,794 INFO 69170 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:52:34,794 INFO 69170 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:52:34,794 INFO 69170 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:52:44,685 INFO 69215 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:52:44,685 INFO 69215 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:52:44,685 INFO 69215 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:52:44,685 INFO 69215 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:52:58,350 INFO 69268 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:52:58,351 INFO 69268 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:52:58,351 INFO 69268 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:52:58,351 INFO 69268 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:53:00,164 INFO 69288 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:53:00,164 INFO 69288 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:53:00,164 INFO 69288 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:53:00,164 INFO 69288 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:53:17,758 INFO 69369 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:53:17,758 INFO 69369 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:53:17,758 INFO 69369 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:53:17,758 INFO 69369 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:53:27,591 INFO 69411 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:53:27,591 INFO 69411 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:53:27,591 INFO 69411 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:53:27,591 INFO 69411 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:53:57,231 INFO 69503 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:53:57,231 INFO 69503 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:53:57,231 INFO 69503 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:53:57,231 INFO 69503 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:55:23,584 INFO 69802 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:55:23,584 INFO 69802 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:55:23,584 INFO 69802 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:55:23,584 INFO 69802 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:55:29,529 INFO 69864 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59670475ms at 2023-11-22 04:30:00.003
+2023-11-21 11:55:29,529 INFO 69864 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43470471ms at 2023-11-22 00:00:00.000
+2023-11-21 11:55:29,529 INFO 69864 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43471471ms at 2023-11-22 00:00:01.000
+2023-11-21 11:55:29,530 INFO 69864 [Timer] /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js next time will execute after 85170471ms at 2023-11-22 11:35:00.001
+2023-11-21 11:55:29,264 INFO 69867 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:55:29,264 INFO 69867 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:55:29,264 INFO 69867 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:55:29,264 INFO 69867 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:56:05,718 INFO 69995 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:56:05,718 INFO 69995 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:56:05,718 INFO 69995 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:56:05,718 INFO 69995 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:56:12,958 INFO 70036 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59627044ms at 2023-11-22 04:30:00.002
+2023-11-21 11:56:12,959 INFO 70036 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43427041ms at 2023-11-22 00:00:00.000
+2023-11-21 11:56:12,959 INFO 70036 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43428041ms at 2023-11-22 00:00:01.000
+2023-11-21 11:56:12,960 INFO 70036 [Timer] /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js next time will execute after 85127041ms at 2023-11-22 11:35:00.001
+2023-11-21 11:56:12,747 INFO 70038 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:56:12,747 INFO 70038 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:56:12,747 INFO 70038 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:56:12,747 INFO 70038 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:58:44,881 INFO 70516 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:58:44,881 INFO 70516 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:58:44,881 INFO 70516 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:58:44,881 INFO 70516 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:58:56,993 INFO 70563 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:58:56,993 INFO 70563 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:58:56,993 INFO 70563 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:58:56,993 INFO 70563 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:59:20,665 INFO 70645 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:59:20,666 INFO 70645 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:59:20,666 INFO 70645 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:59:20,666 INFO 70645 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 11:59:26,094 INFO 70669 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59433909ms at 2023-11-22 04:30:00.002
+2023-11-21 11:59:26,094 INFO 70669 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43233906ms at 2023-11-22 00:00:00.000
+2023-11-21 11:59:26,094 INFO 70669 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43234906ms at 2023-11-22 00:00:01.000
+2023-11-21 11:59:26,095 INFO 70669 [Timer] /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js next time will execute after 84933906ms at 2023-11-22 11:35:00.001
+2023-11-21 11:59:25,892 INFO 70671 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 11:59:25,892 INFO 70671 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 11:59:25,892 INFO 70671 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 11:59:25,892 INFO 70671 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 13:32:14,712 INFO 83229 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 13:32:14,712 INFO 83229 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 13:32:14,712 INFO 83229 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 13:32:14,712 INFO 83229 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 13:32:23,576 INFO 83304 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53856426ms at 2023-11-22 04:30:00.002
+2023-11-21 13:32:23,577 INFO 83304 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 37656423ms at 2023-11-22 00:00:00.000
+2023-11-21 13:32:23,577 INFO 83304 [Timer] /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37657423ms at 2023-11-22 00:00:01.000
+2023-11-21 13:32:23,577 INFO 83304 [Timer] /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js next time will execute after 79356423ms at 2023-11-22 11:35:00.000
+2023-11-21 13:32:23,395 INFO 83306 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 13:32:23,395 INFO 83306 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 13:32:23,395 INFO 83306 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 13:32:23,395 INFO 83306 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 13:33:30,921 INFO 83513 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 13:33:30,921 INFO 83513 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 13:33:30,921 INFO 83513 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 13:33:30,921 INFO 83513 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 13:33:35,187 INFO 83536 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 13:33:35,187 INFO 83536 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 13:33:35,187 INFO 83536 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 13:33:35,187 INFO 83536 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
+2023-11-21 13:35:33,957 INFO 83906 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-11-21 13:35:33,957 INFO 83906 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-11-21 13:35:33,957 INFO 83906 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-11-21 13:35:33,957 INFO 83906 [egg-schedule]: register schedule /Users/kangyu/Sites/component-coverage/app/schedule/collect_component.js
