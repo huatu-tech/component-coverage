@@ -31,7 +31,7 @@ class SiteService extends Service {
     let {name,site,environment} = sites;
     const repeat = await this.list(1,10,{ name,site,environment });
     console.log('repeat', repeat);
-    if (repeat.length) {
+    if (repeat.length && repeat[0].id !== id) {
       return Error('已存在相同的项目');
     }
     const options = {

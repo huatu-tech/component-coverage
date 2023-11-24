@@ -31,7 +31,6 @@ class List extends Controller {
   async del() {
     const { ctx } = this;
     const { ids } = ctx.query;
-    console.log('ids', ids);
     const result = await ctx.service.site.del(ids.split(','));
     if (result.affectedRows) {
       ctx.body = {

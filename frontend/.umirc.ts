@@ -8,7 +8,12 @@ export default defineConfig({
   request: {},
   layout: {
     title: '前端组件统计',
+    locale: false, 
   },
+  favicons: [
+    // 完整地址
+    'http://htwuhan.oss-cn-beijing.aliyuncs.com/tool/favicon.svg',
+  ],
   routes: [
     {
       path: '/',
@@ -25,7 +30,7 @@ export default defineConfig({
       component: './Access',
     },
     {
-      name: ' 项目管理',
+      name: '项目管理',
       path: '/table',
       component: './Table',
     },

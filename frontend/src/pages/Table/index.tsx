@@ -173,17 +173,20 @@ const TableList: React.FC<unknown> = () => {
         headerTitle="项目管理"
         actionRef={actionRef}
         editable={{
-          type: 'multiple',
+          type: 'single',
           onSave: async (_, row) => {
             console.log(_, row);
               await handleUpdate(row);
-              actionRef.current?.reloadAndRest?.();
+              actionRef.current?.reload?.();
             
           }
         }}
         rowKey="id"
         search={{
           labelWidth: 120,
+        }}
+        pagination={{
+          pageSize: 10,
         }}
         toolBarRender={() => [
           <Button
