@@ -10,9 +10,8 @@ import {
 import { Button, Divider, Drawer, message } from 'antd';
 import React, { useRef, useState } from 'react';
 import CreateForm from './components/CreateForm';
-import UpdateForm, { FormValueType } from './components/UpdateForm';
 
-const { addSite, querySiteList, deleteSite, modifyUser } =
+const { addSite, querySiteList, deleteSite, updateSite } =
   services.SiteController;
 
 /**
@@ -42,23 +41,18 @@ const handleAdd = async (fields: API.SiteInfo) => {
  * 更新节点
  * @param fields
  */
-const handleUpdate = async (fields: FormValueType) => {
+const handleUpdate = async (fields: API.SiteInfo) => {
   const hide = message.loading('正在配置');
   try {
-    await modifyUser(
-      {
-        userId: fields.id || '',
-      },
-      {
-        name: fields.name || '',
-        nickName: fields.nickName || '',
-        email: fields.email || '',
-      },
-    );
+    const res:any = await updateSite(fields);
     hide();
-
-    message.success('配置成功');
-    return true;
+    if(res.code === 200) {
+      message.success('配置成功');
+      return true;
+    } else {
+      message.error(res.message);
+      return false;
+    }
   } catch (error) {
     hide();
     message.error('配置失败请重试！');
@@ -89,9 +83,6 @@ const handleRemove = async (selectedRows: API.SiteInfo[]) => {
 
 const TableList: React.FC<unknown> = () => {
   const [createModalVisible, handleModalVisible] = useState<boolean>(false);
-  const [updateModalVisible, handleUpdateModalVisible] =
-    useState<boolean>(false);
-  const [stepFormValues, setStepFormValues] = useState({});
   const actionRef = useRef<ActionType>();
   const [row, setRow] = useState<API.SiteInfo>();
   const [selectedRowsState, setSelectedRows] = useState<API.SiteInfo[]>([]);
@@ -149,12 +140,14 @@ const TableList: React.FC<unknown> = () => {
       title: '操作',
       dataIndex: 'option',
       valueType: 'option',
-      render: (_, record) => (
+      render: (_, record:any) => (
         <>
           <a
+            key="editable"
             onClick={() => {
-              handleUpdateModalVisible(true);
-              setStepFormValues(record);
+              // handleUpdateModalVisible(true);
+              // setStepFormValues(record);
+              actionRef.current?.startEditable?.(record.id);
             }}
           >
             配置
@@ -179,6 +172,15 @@ const TableList: React.FC<unknown> = () => {
       <ProTable<API.SiteInfo>
         headerTitle="项目管理"
         actionRef={actionRef}
+        editable={{
+          type: 'multiple',
+          onSave: async (_, row) => {
+            console.log(_, row);
+              await handleUpdate(row);
+              actionRef.current?.reloadAndRest?.();
+            
+          }
+        }}
         rowKey="id"
         search={{
           labelWidth: 120,
@@ -250,26 +252,6 @@ const TableList: React.FC<unknown> = () => {
           columns={columns}
         />
       </CreateForm>
-      {stepFormValues && Object.keys(stepFormValues).length ? (
-        <UpdateForm
-          onSubmit={async (value) => {
-            const success = await handleUpdate(value);
-            if (success) {
-              handleUpdateModalVisible(false);
-              setStepFormValues({});
-              if (actionRef.current) {
-                actionRef.current.reload();
-              }
-            }
-          }}
-          onCancel={() => {
-            handleUpdateModalVisible(false);
-            setStepFormValues({});
-          }}
-          updateModalVisible={updateModalVisible}
-          values={stepFormValues}
-        />
-      ) : null}
 
       <Drawer
         width={600}

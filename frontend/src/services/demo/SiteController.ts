@@ -43,40 +43,17 @@ export async function addSite(
   });
 }
 
-/** 此处后端没有提供注释 GET /api/v1/user/${param0} */
-export async function getUserDetail(
-  params: {
-    // path
-    /** userId */
-    userId?: string;
-  },
-  options?: { [key: string]: any },
-) {
-  const { userId: param0 } = params;
-  return request<API.Result_UserInfo_>(`/api/v1/user/${param0}`, {
-    method: 'GET',
-    params: { ...params },
-    ...(options || {}),
-  });
-}
 
 /** 此处后端没有提供注释 PUT /api/v1/user/${param0} */
-export async function modifyUser(
-  params: {
-    // path
-    /** userId */
-    userId?: string;
-  },
-  body?: API.UserInfoVO,
+export async function updateSite(
+  body?: API.SiteInfo,
   options?: { [key: string]: any },
 ) {
-  const { userId: param0 } = params;
-  return request<API.Result_UserInfo_>(`/api/v1/user/${param0}`, {
+  return request<API.Result_UserInfo_>(`/api/site/update`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
     },
-    params: { ...params },
     data: body,
     ...(options || {}),
   });

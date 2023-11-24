@@ -23,12 +23,23 @@ class SiteService extends Service {
     return result;
   }
   async del(ids) {
-    console.log('ids',ids);
     const result = await this.app.mysql.delete('statistics_site', { 'id': ids }, { where: 'IN' });
     return result;
   }
-  async update(id, site) {
-    const result = await this.app.mysql.update('statistics_site', { id, site });
+  async update(row) {
+    let {id, index, ...sites} = row;
+    let {name,site,environment} = sites;
+    const repeat = await this.list(1,10,{ name,site,environment });
+    console.log('repeat', repeat);
+    if (repeat.length) {
+      return Error('已存在相同的项目');
+    }
+    const options = {
+      where: {
+        id
+      }
+    };
+    const result = await this.app.mysql.update('statistics_site', { ...sites }, options);
     return result;
   }
   async query(id) {

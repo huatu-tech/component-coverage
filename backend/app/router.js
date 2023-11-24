@@ -9,6 +9,6 @@ module.exports = app => {
   router.get('/site/list', controller.site.list); // 列表
   router.post('/site/add', controller.site.add); // 新增项目
   router.delete('/site/del', controller.site.del); // 删除项目
-  router.post('/site/update', controller.site.update); // 删除项目
+  router.put('/site/update', controller.site.update); // 删除项目
   router.get('/site/query', controller.site.query); // 查询项目
 };
