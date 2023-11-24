@@ -12,20 +12,25 @@ import React, { useRef, useState } from 'react';
 import CreateForm from './components/CreateForm';
 import UpdateForm, { FormValueType } from './components/UpdateForm';
 
-const { addUser, queryUserList, deleteUser, modifyUser } =
-  services.UserController;
+const { addSite, querySiteList, deleteSite, modifyUser } =
+  services.SiteController;
 
 /**
  * 添加节点
  * @param fields
  */
-const handleAdd = async (fields: API.UserInfo) => {
+const handleAdd = async (fields: API.SiteInfo) => {
   const hide = message.loading('正在添加');
   try {
-    await addUser({ ...fields });
+    let res:any = await addSite(fields);
     hide();
+    if(res.code === 200) {
     message.success('添加成功');
     return true;
+  } else {
+    message.error(res.message);
+    return false;
+  }
   } catch (error) {
     hide();
     message.error('添加失败请重试！');
@@ -65,12 +70,12 @@ const handleUpdate = async (fields: FormValueType) => {
  *  删除节点
  * @param selectedRows
  */
-const handleRemove = async (selectedRows: API.UserInfo[]) => {
+const handleRemove = async (selectedRows: API.SiteInfo[]) => {
   const hide = message.loading('正在删除');
   if (!selectedRows) return true;
   try {
-    await deleteUser({
-      userId: selectedRows.find((row) => row.id)?.id || '',
+    await deleteSite({
+      ids: selectedRows.map((row) => row.id).join(',')
     });
     hide();
     message.success('删除成功，即将刷新');
@@ -88,9 +93,9 @@ const TableList: React.FC<unknown> = () => {
     useState<boolean>(false);
   const [stepFormValues, setStepFormValues] = useState({});
   const actionRef = useRef<ActionType>();
-  const [row, setRow] = useState<API.UserInfo>();
-  const [selectedRowsState, setSelectedRows] = useState<API.UserInfo[]>([]);
-  const columns: ProDescriptionsItemProps<API.UserInfo>[] = [
+  const [row, setRow] = useState<API.SiteInfo>();
+  const [selectedRowsState, setSelectedRows] = useState<API.SiteInfo[]>([]);
+  const columns: ProDescriptionsItemProps<API.SiteInfo>[] = [
     {
       title: '名称',
       dataIndex: 'name',
@@ -105,18 +110,40 @@ const TableList: React.FC<unknown> = () => {
       },
     },
     {
-      title: '昵称',
-      dataIndex: 'nickName',
-      valueType: 'text',
+      title: '地址',
+      dataIndex: 'site',
+      formItemProps: {
+        rules: [
+          {
+            required: true,
+            message: '地址为必填项',
+          },
+        ],
+      },
     },
     {
-      title: '性别',
-      dataIndex: 'gender',
-      hideInForm: true,
-      valueEnum: {
-        0: { text: '男', status: 'MALE' },
-        1: { text: '女', status: 'FEMALE' },
+      title: '运行环境',
+      dataIndex: 'environment',
+      formItemProps: {
+        rules: [
+          {
+            required: true,
+            message: '运行环境为必填项',
+          },
+        ],
       },
+      valueEnum: {
+        'dev': { text: 'dev测试环境', },
+        'test': { text: 'test测试环境', },
+        'beta': { text: 'beta预发布环境', },
+        'prod': { text: 'prod生产环境', },
+      },
+    },
+    {
+      title: '简介',
+      dataIndex: 'introduced',
+      valueType: 'textarea',
+      hideInSearch: true,
     },
     {
       title: '操作',
@@ -133,7 +160,11 @@ const TableList: React.FC<unknown> = () => {
             配置
           </a>
           <Divider type="vertical" />
-          <a href="">订阅警报</a>
+          <a 
+            onClick={async () => {
+              await handleRemove([record]);
+              actionRef.current?.reloadAndRest?.();
+            }}>删除</a>
         </>
       ),
     },
@@ -142,11 +173,11 @@ const TableList: React.FC<unknown> = () => {
   return (
     <PageContainer
       header={{
-        title: 'CRUD 示例',
+        title: '项目管理',
       }}
     >
-      <ProTable<API.UserInfo>
-        headerTitle="查询表格"
+      <ProTable<API.SiteInfo>
+        headerTitle="项目管理"
         actionRef={actionRef}
         rowKey="id"
         search={{
@@ -162,7 +193,7 @@ const TableList: React.FC<unknown> = () => {
           </Button>,
         ]}
         request={async (params, sorter, filter) => {
-          const { data, success } = await queryUserList({
+          const { data, success } = await querySiteList({
             ...params,
             // FIXME: remove @ts-ignore
             // @ts-ignore
@@ -170,7 +201,7 @@ const TableList: React.FC<unknown> = () => {
             filter,
           });
           return {
-            data: data?.list || [],
+            data: data || [],
             success,
           };
         }}
@@ -198,14 +229,13 @@ const TableList: React.FC<unknown> = () => {
           >
             批量删除
           </Button>
-          <Button type="primary">批量审批</Button>
         </FooterToolbar>
       )}
       <CreateForm
         onCancel={() => handleModalVisible(false)}
         modalVisible={createModalVisible}
       >
-        <ProTable<API.UserInfo, API.UserInfo>
+        <ProTable<API.SiteInfo, API.SiteInfo>
           onSubmit={async (value) => {
             const success = await handleAdd(value);
             if (success) {
@@ -250,7 +280,7 @@ const TableList: React.FC<unknown> = () => {
         closable={false}
       >
         {row?.name && (
-          <ProDescriptions<API.UserInfo>
+          <ProDescriptions<API.SiteInfo>
             column={2}
             title={row?.name}
             request={async () => ({

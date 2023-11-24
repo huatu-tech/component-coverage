@@ -5,14 +5,14 @@ class UpdateCache extends Subscription {
   static get schedule() {
     return {
       // 每日3点准点执行一次：'0 0 3 ? * *'
-      cron: '0 35 11 ? * *',
+      cron: '0 15 16 ? * *',
       type: 'all', // 指定所有的 worker 都需要执行
     };
   }
 
   // subscribe 是真正定时任务执行时被运行的函数
   async subscribe() {
-    const { data } = await this.ctx.curl('http://localhost:7001/site/list', {
+    const { data } = await this.ctx.curl('http://127.0.0.1:7001/site/list', {
       dataType: 'json',
     });
     const sites = data.data;

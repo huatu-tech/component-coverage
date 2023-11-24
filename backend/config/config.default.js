@@ -41,7 +41,14 @@ module.exports = appInfo => {
     // 是否加载到 agent 上，默认关闭
     agent: false,
   };
+  const security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true,
+    },
+  };
   return {
+    security,
     ...config,
     ...userConfig,
   };

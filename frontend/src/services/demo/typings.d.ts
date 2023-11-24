@@ -64,5 +64,29 @@ declare namespace API {
     email?: string;
   }
 
+  interface SiteInfo {
+    id?: number;
+    name?: string;
+    /** nick */
+    date?: string;
+    /** email */
+    update_date?: string;
+    introduced?: string;
+    environment?: string;
+  }
+  interface Result_PageInfo_SiteInfo__ {
+    success?: boolean;
+    errorMessage?: string;
+    data?: PageInfo_SiteInfo_;
+  }
+
+  interface PageInfo_SiteInfo_ {
+    /** 
+1 */
+    current?: number;
+    pageSize?: number;
+    total?: number;
+    data?: Array<UserInfo>;
+  }
   type definitions_0 = null;
 }

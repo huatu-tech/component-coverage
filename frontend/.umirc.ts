@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: '前端组件统计',
   },
   routes: [
     {
@@ -25,11 +25,18 @@ export default defineConfig({
       component: './Access',
     },
     {
-      name: ' CRUD 示例',
+      name: ' 项目管理',
       path: '/table',
       component: './Table',
     },
   ],
   npmClient: 'pnpm',
+  proxy: {
+    '/api': {
+      'target': 'http://127.0.0.1:7001/',
+      'changeOrigin': true,
+      'pathRewrite': { '^/api' : '' },
+    },
+  },
 });
 
