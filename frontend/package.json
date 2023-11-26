@@ -11,11 +11,13 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@ant-design/charts": "^2.0.1",
+    "@ant-design/charts": "^1.4.2",
     "@ant-design/icons": "^5.2.6",
+    "@ant-design/plots": "^2.0.3",
     "@ant-design/pro-components": "^2.6.43",
     "@umijs/max": "^4.0.88",
-    "antd": "^5.11.2"
+    "antd": "^5.11.2",
+    "react-countup": "^6.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.38",

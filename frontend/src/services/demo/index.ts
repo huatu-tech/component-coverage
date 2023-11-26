@@ -3,7 +3,11 @@
 
 import * as UserController from './UserController';
 import * as SiteController from './SiteController';
+import * as StatisticsController from './StatisticsController';
+import * as ComponentController from './ComponentController';
 export default {
   UserController,
   SiteController,
+  StatisticsController,
+  ComponentController,
 };

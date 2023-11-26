@@ -5,7 +5,7 @@ class UpdateCache extends Subscription {
   static get schedule() {
     return {
       // 每日3点准点执行一次：'0 0 3 ? * *'
-      cron: '0 15 16 ? * *',
+      cron: '0 9 12 ? * *',
       type: 'all', // 指定所有的 worker 都需要执行
     };
   }
@@ -21,9 +21,11 @@ class UpdateCache extends Subscription {
       const res = await this.ctx.curl(`${site.site}/count.js?time=${timestamp}`, {
         dataType: 'json',
       });
-      const staticDate = await ComponentStatic(site, res.data);
-      const result = await this.ctx.app.mysql.insert('components_coverage',staticDate);
-      console.log(result);
+      if(res.data){
+        const staticDate = await ComponentStatic(site, res.data);
+        const result = await this.ctx.app.mysql.insert('components_coverage',staticDate);
+        console.log(result);
+      }
     }
   }
 }

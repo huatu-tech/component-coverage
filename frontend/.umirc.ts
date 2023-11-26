@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '前端组件统计',
+    title: '组件库统计',
     locale: false, 
   },
   favicons: [
@@ -17,22 +17,32 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      redirect: '/home',
+      redirect: '/component',
+    },
+    // {
+    //   name: '首页',
+    //   path: '/home',
+    //   component: './Home',
+    // },
+    // {
+    //   name: '权限演示',
+    //   path: '/access',
+    //   component: './Access',
+    // },
+    {
+      name: '组件管理',
+      path: '/component',
+      component: './Component',
     },
     {
-      name: '首页',
-      path: '/home',
-      component: './Home',
+      name: '采集管理',
+      path: '/collect',
+      component: './Collect',
     },
     {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: '项目管理',
-      path: '/table',
-      component: './Table',
+      name: '统计分析',
+      path: '/dashboard',
+      component: './Dashboard',
     },
   ],
   npmClient: 'pnpm',

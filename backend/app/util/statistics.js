@@ -9,11 +9,11 @@
     const pagesTimes = cmp.pages.reduce((total, item) => total + item.pos.length, 0);
     const componentsTimes = cmp.components.reduce((total, item) => total + item.pos.length, 0);
     return {
-      date: String(timestamp),
+      date: timestamp,
       component: String(item),
       project: String(site.site),
-      components_coverage_count: String(coverage.components),
-      pages_coverage_count:  String(coverage.pages),
+      components_coverage_count: coverage.components,
+      pages_coverage_count:  coverage.pages,
       components_count: data.componentsCount,
       pages_count: data.pagesCount,
       components_times: componentsTimes,

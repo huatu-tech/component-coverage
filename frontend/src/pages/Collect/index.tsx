@@ -166,11 +166,11 @@ const TableList: React.FC<unknown> = () => {
   return (
     <PageContainer
       header={{
-        title: '项目管理',
+        title: '采集管理',
       }}
     >
       <ProTable<API.SiteInfo>
-        headerTitle="项目管理"
+        headerTitle="项目列表"
         actionRef={actionRef}
         editable={{
           type: 'single',

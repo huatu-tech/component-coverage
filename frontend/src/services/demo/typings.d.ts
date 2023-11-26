@@ -74,6 +74,19 @@ declare namespace API {
     introduced?: string;
     environment?: string;
   }
+
+  interface ComponentInfo {
+    id?: number;
+    name?: string;
+    /** nick */
+    date?: Number;
+    /** email */
+    update_date?: string;
+    introduced?: string;
+    category?: Number;
+    author?: string;
+  }
+
   interface Result_PageInfo_SiteInfo__ {
     success?: boolean;
     errorMessage?: string;
