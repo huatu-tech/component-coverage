@@ -33,5 +33,9 @@ class StatisticsService extends Service {
       siteCount: sitesList.length,
     };
   }
+  async rank(rankType){
+    const result = await this.app.mysql.query(`SELECT * FROM components_coverage ORDER BY ${rankType == 1 ? 'pages_times' : 'components_times'} DESC LIMIT 10`);
+    return result;
+  }
 }
 module.exports = StatisticsService;

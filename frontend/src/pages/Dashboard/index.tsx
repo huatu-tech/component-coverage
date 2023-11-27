@@ -5,15 +5,15 @@ import {
   StatisticCard,
 } from '@ant-design/pro-components';
 import CountUp from 'react-countup';
+import Rank from './component/rank';
 import { Rose } from '@ant-design/charts';
-import { Row, Col, Card, Menu, Dropdown, Radio } from 'antd';
+import { Row, Col, Card } from 'antd';
 const { Statistic, Divider } = StatisticCard;
 const formatter = (value: number) => <CountUp end={value} separator="," />;
 
 const DemoLine: React.FC<unknown> = () => {
   const [statistics, setStatistics] = useState<any>({});
   const [roseData, setrRoseData] = useState<any>([]);
-  const [salesType, setrSalesType] = useState<any>('1');
   const queryStatistics = async () => {
     return await services.StatisticsController.queryStatistics();
   }
@@ -24,9 +24,6 @@ const DemoLine: React.FC<unknown> = () => {
     })
   }, []);
   
-  const handleChangeSalesType = (e:any) => {
-    setrSalesType(e.target.value);
-  };
 
 const DemoRose = () => {
   //类别：1原子组件、2业务组件、3布局组件、4表单组件、5UI组件
@@ -119,26 +116,7 @@ const DemoRose = () => {
           </Row>
           <Row gutter={20}>
             <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-              <Card
-                  // loading={loading}
-                  bordered={false}
-                  title='组件rank'
-                  style={{ marginTop: 24 }}
-                  extra={
-                    <div>
-                        <Radio.Group value={salesType} onChange={(e)=>handleChangeSalesType(e)}>
-                          <Radio.Button value="1">
-                          调用次数
-                          </Radio.Button>
-                          <Radio.Button value="2">
-                          覆盖率
-                          </Radio.Button>
-                        </Radio.Group>
-                    </div>
-                  }
-                >
-
-                </Card>
+                  <Rank />
             </Col>
             <Col xl={12} lg={24} md={24} sm={24} xs={24}>
               <Card

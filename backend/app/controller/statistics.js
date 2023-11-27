@@ -11,6 +11,15 @@ class Statistics extends Controller {
       data: result,
     };
   }
+  async rank() {
+    const { ctx } = this;
+    const { rankType } = ctx.query;
+    const result = await ctx.service.statistics.rank(rankType);
+    ctx.body = {
+      code: 200,
+      data: result,
+    };
+  }
 }
 
 module.exports = Statistics;

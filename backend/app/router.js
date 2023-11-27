@@ -16,5 +16,7 @@ module.exports = app => {
   router.post('/site/add', controller.site.add); // 新增项目
   router.delete('/site/del', controller.site.del); // 删除项目
   router.put('/site/update', controller.site.update); // 删除项目
+
   router.get('/statistics', controller.statistics.index); // 查询统计
+  router.get('/statistics/rank', controller.statistics.rank); // 查询统计Rank Top10
 };

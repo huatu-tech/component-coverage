@@ -9,3 +9,16 @@ export async function queryStatistics() {
   });
 }
 
+export async function queryStatisticsRank(
+  params: {
+    rankType:number
+  },
+  options?: { [key: string]: any },
+) {
+  return request('/api/statistics/rank', {
+    method: 'GET',
+    params: { ...params },
+    ...(options || {}),
+  });
+}
+
