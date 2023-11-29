@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '组件库统计',
+    title: '组件库管理',
     locale: false, 
   },
   favicons: [
