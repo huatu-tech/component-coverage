@@ -49,7 +49,7 @@ const App: React.FC = () => {
     <List
       itemLayout="horizontal"
       dataSource={rank}
-      style={{height: '400px'}}
+      style={{height: '400px', overflow: 'scroll'}}
       renderItem={(item, index) => (
         <List.Item>
           <List.Item.Meta
