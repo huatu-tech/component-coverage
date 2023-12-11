@@ -55,8 +55,10 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
 
 
   useEffect(() => {
+    setLoading(true)
     queryComponentDetail(Object.assign({type}, initialValues, match.params,)).then((res) => {
       console.log('res', res);
+      setLoading(false)
       setCoverage(res.data)
     })
   }, [initialValues, type]);
@@ -124,6 +126,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
         bordered={false}
         title={`组件：${match.params.name}`}
         extra={extraContent}
+        loading={loading}
       >
         <ReactJson src={coverage} />
       </Card>
