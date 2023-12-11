@@ -6,6 +6,7 @@ import {
 } from '@ant-design/pro-components';
 import CountUp from 'react-countup';
 import Rank from './component/rank';
+import UseInfo from './component/useInfo';
 import { Rose } from '@ant-design/charts';
 import { Row, Col, Card } from 'antd';
 const { Statistic, Divider } = StatisticCard;
@@ -107,11 +108,7 @@ const DemoRose = () => {
           <p>todo:组件rank</p> */}
           <Row gutter={20}>
           <Col span={24}>
-            <Card 
-              bordered={false}
-              title='组件使用情况统计'
-              style={{ marginTop: 24 }}>
-              </Card>
+            <UseInfo />
           </Col>
           </Row>
           <Row gutter={20}>
