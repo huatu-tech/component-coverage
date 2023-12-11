@@ -44,6 +44,12 @@ export default defineConfig({
       path: '/dashboard',
       component: './Dashboard',
     },
+    {
+      hideInMenu: true,
+      name: '组件详情',
+      path: '/component/:name',
+      component: './Component/detail.tsx',
+    },
   ],
   npmClient: 'pnpm',
   proxy: {

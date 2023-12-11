@@ -74,3 +74,26 @@ export async function deleteComponent(
     ...(options || {}),
   });
 }
+
+
+/** 此处后端没有提供注释 GET /api/v1/queryUserList */
+export async function queryComponentDetail(
+  params: {
+    // query
+    // /** keyword */
+    // keyword?: string;
+    // /** current */
+    // current?: number;
+    // /** pageSize */
+    // pageSize?: number;
+  },
+  options?: { [key: string]: any },
+) {
+  return request<API.Result_PageInfo_SiteInfo__>('/api/component/detail', {
+    method: 'GET',
+    params: {
+      ...params,
+    },
+    ...(options || {}),
+  });
+}

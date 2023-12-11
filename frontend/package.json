@@ -17,7 +17,8 @@
     "@ant-design/pro-components": "^2.6.43",
     "@umijs/max": "^4.0.88",
     "antd": "^5.11.2",
-    "react-countup": "^6.5.0"
+    "react-countup": "^6.5.0",
+    "react-json-view": "^1.21.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.38",

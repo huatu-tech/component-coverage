@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/kangyu/.nvm/versions/node/v18.13.0/bin/node /usr/local/bin/yarn add @umijs/preset-ui -D
+
+PATH: 
+  /Users/kangyu/Library/pnpm:/Users/kangyu/.nvm/versions/node/v18.13.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/kangyu/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/kangyu/Library/Caches/Yarn/v6/npm-ignore-4.0.6-750e3db5862087b4737ebac8207ffd1ef27b25fc-integrity/node_modules/ignore/CHANGELOG.md' -> '/Users/kangyu/Sites/component-coverage/frontend/node_modules/@eslint/eslintrc/node_modules/ignore/CHANGELOG.md'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "“kangyu” <kangyu@huatu.com>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "cd .. && husky install frontend/.husky",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/charts": "^1.4.2",
+      "@ant-design/icons": "^5.2.6",
+      "@ant-design/plots": "^2.0.3",
+      "@ant-design/pro-components": "^2.6.43",
+      "@umijs/max": "^4.0.88",
+      "antd": "^5.11.2",
+      "react-countup": "^6.5.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.38",
+      "@types/react-dom": "^18.2.17",
+      "husky": "^8.0.3",
+      "lint-staged": "^15.1.0",
+      "prettier": "^3.1.0",
+      "prettier-plugin-organize-imports": "^3.2.4",
+      "prettier-plugin-packagejson": "^2.4.6",
+      "typescript": "^5.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

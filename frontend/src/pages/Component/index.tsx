@@ -8,7 +8,8 @@ import {
   ProTable,
 } from '@ant-design/pro-components';
 import { Button, Divider, Drawer, message } from 'antd';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,PropsWithChildren } from 'react';
+import { Link } from '@umijs/max';
 import CreateForm from './components/CreateForm';
 
 const { addComponent, queryComponentList, deleteComponent, updateComponent } =
@@ -81,7 +82,10 @@ const handleRemove = async (selectedRows: API.ComponentInfo[]) => {
   }
 };
 
-const TableList: React.FC<unknown> = () => {
+const ComponentList: React.FC<PropsWithChildren<unknown>> = (props) => {
+  const {children} = props
+  console.log(123,children);
+  
   const [createModalVisible, handleModalVisible] = useState<boolean>(false);
   const actionRef = useRef<ActionType>();
   const [row, setRow] = useState<API.ComponentInfo>();
@@ -99,6 +103,13 @@ const TableList: React.FC<unknown> = () => {
           },
         ],
       },
+      render: (_, record:any) => (
+          <Link
+            to={{pathname:'/component/'+record.name}}
+          >
+            {record.name}
+          </Link>
+      ),
     },
     {
       title: '分类',
@@ -283,4 +294,4 @@ const TableList: React.FC<unknown> = () => {
   );
 };
 
-export default TableList;
+export default ComponentList;

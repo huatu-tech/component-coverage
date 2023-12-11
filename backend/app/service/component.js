@@ -46,5 +46,27 @@ class ComponentService extends Service {
     const result = await this.app.mysql.query(`select * from components where id = ${id}`);
     return result;
   }
+
+  async detail({name, project, date, type}) {
+    const result = await this.app.mysql.select('components_coverage_detail',{
+      where: { component:name, project, date }, // WHERE 条件
+    });
+    console.log('result', result);
+    // type : page component
+    switch (type) {
+      case 'page':
+        return result.map(element => {
+          const {pages_coverage, components_coverage, ...other} = element;
+          return Object.assign({...other}, {coverage: JSON.parse(element.pages_coverage)});
+        });
+      case 'component':
+        return result.map(element => {
+          const {pages_coverage, components_coverage, ...other} = element;
+          return Object.assign({...other}, {coverage: JSON.parse(element.components_coverage)});
+        });
+      default:
+        return result;
+    }
+  }
 }
 module.exports = ComponentService;

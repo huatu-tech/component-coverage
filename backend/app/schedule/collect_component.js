@@ -5,7 +5,7 @@ class UpdateCache extends Subscription {
   static get schedule() {
     return {
       // 每日3点准点执行一次：'0 0 3 ? * *'
-      cron: '0 33 23 ? * *',
+      cron: '0 7 15 ? * *',
       type: 'all', // 指定所有的 worker 都需要执行
     };
   }
@@ -23,10 +23,8 @@ class UpdateCache extends Subscription {
       });
       if(res.data){
         const {staticDate, detail} = await ComponentStatic(site, res.data);
-        // const result1 = await this.ctx.app.mysql.insert('components_coverage',staticDate);
         const result2 = await this.ctx.app.mysql.insert('components_coverage_detail',detail);
         let startid  = result2.insertId;
-        console.log('startid',startid);
         staticDate.forEach((item,index)=>{
           item.detail_id = startid + index;
         })
