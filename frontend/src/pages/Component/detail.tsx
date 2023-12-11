@@ -7,7 +7,7 @@ import {
   ProFormDatePicker,
   ProFormSelect,
 } from '@ant-design/pro-components';
-import { Button, Divider, Card, Radio, message, Row, Col, List, Statistic } from 'antd';
+import { Button, Divider, Card, Radio, Affix, Row, Col, List, Statistic } from 'antd';
 const RadioGroup = Radio.Group;
 const RadioButton = Radio.Button;
 import React, { useRef, useState, useEffect } from 'react';
@@ -86,7 +86,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
   }
 
   const extraContent = (
-    <>
+    <Affix offsetTop={20}>
       <Row gutter={20} align='middle'>
         <Col>
           <LightFilter
@@ -117,7 +117,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
           </Radio.Group>
         </Col>
       </Row>
-    </>
+    </Affix>
   );
 
   return (
