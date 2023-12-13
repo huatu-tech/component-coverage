@@ -14,6 +14,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Link, useMatch } from '@umijs/max';
 import CreateForm from './components/CreateForm';
 import ReactJson from 'react-json-view'
+import { proDate } from '@/utils/format';
 
 
 
@@ -25,22 +26,6 @@ const UseInfo: React.FC<unknown> = (prop) => {
   const [list, setList] = useState<any>([])
   const [coverage, setCoverage] = useState<any>([])
   const [initialValues, setInitialValues] = useState<any>({})
-  // 获取年-月-日
-  const toDayStr = () => {
-    let date = new Date();
-    let year = date.getFullYear();
-    let month = date.getMonth() + 1;
-    let strDate = date.getDate();
-    let seperator = "-";
-    if (month >= 1 && month <= 9) {
-      month = '0' + month;
-    }
-    if (strDate >= 0 && strDate <= 9) {
-      strDate = '0' + strDate;
-    }
-    let currentdate = year + seperator + month + seperator + strDate;
-    return currentdate;
-  }
 
   const [type, setType] = useState<string>("page")
   const [siteList, setSiteList] = useState<any>([]);
@@ -76,7 +61,7 @@ const UseInfo: React.FC<unknown> = (prop) => {
     let res = await querySiteListFn()
     let obj = {
       project: res[0].label,
-      date: toDayStr(),
+      date: [proDate(new Date(), '{%M-1}'), new Date()],
     }
     setInitialValues(obj)
     return obj
