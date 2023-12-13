@@ -35,6 +35,7 @@
       pages_coverage: JSON.stringify(cmp.pages),
       components_times: componentsTimes,
       pages_times: pagesTimes,
+      version: data.version,
     });
     return {
       date: dayStr,
