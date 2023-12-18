@@ -20,4 +20,5 @@ module.exports = app => {
 
   router.get('/statistics', controller.statistics.index); // 查询统计
   router.get('/statistics/rank', controller.statistics.rank); // 查询统计Rank Top10
+  router.get('/mail/index', controller.mail.index); // 查询统计Rank Top10
 };
