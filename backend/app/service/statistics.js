@@ -1,11 +1,9 @@
 const Service = require('egg').Service;
-const getTodayStr = require('./../util/statistics.js').getTodayStr;
-
 class StatisticsService extends Service {
   async list() {
     let collect = { componentTimes: 0, pageTimes: 0, componentCount: 0, pageCount: 0 }
     let siteCount = {}
-    const todayStr = getTodayStr();
+    const todayStr = this.app.getTodayStr();
     //获取当天抓取的组件统计数据
     const componentsCollectData = await this.app.mysql.select('components_coverage',{
       where: { date: todayStr, }, // WHERE 条件

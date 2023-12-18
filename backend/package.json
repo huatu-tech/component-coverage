@@ -9,7 +9,9 @@
   "dependencies": {
     "egg": "^3",
     "egg-mysql": "^4.0.0",
-    "egg-scripts": "^2"
+    "egg-scripts": "^2",
+    "nodemailer": "^6.9.7",
+    "nodemailer-smtp-transport": "^2.7.4"
   },
   "devDependencies": {
     "egg-bin": "^5",

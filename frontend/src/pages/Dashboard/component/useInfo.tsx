@@ -16,8 +16,6 @@ import CreateForm from './components/CreateForm';
 import ReactJson from 'react-json-view'
 import { proDate } from '@/utils/format';
 
-
-
 const UseInfo: React.FC<unknown> = (prop) => {
 
   const [createModalVisible, handleModalVisible] = useState<boolean>(false);
