@@ -15,7 +15,7 @@ class SeedMail extends Subscription {
     const mailInfo = await this.ctx.curl('http://127.0.0.1:7001/mail/index', {
       dataType: 'json',
     });
-    console.log(mailInfo);
+    // 获取数据
     const res = await this.ctx.curl('http://127.0.0.1:7001/site/list', {
       dataType: 'json',
     });

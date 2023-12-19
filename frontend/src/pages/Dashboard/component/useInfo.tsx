@@ -1,114 +1,145 @@
 import services from '@/services/demo';
 import {
-  ActionType,
-  PageContainer,
-  ProCard,
   LightFilter,
   ProFormDateRangePicker,
   ProFormSelect,
 } from '@ant-design/pro-components';
-import { Button, Divider, Card, Radio, Affix, Row, Col, List, Statistic } from 'antd';
-const RadioGroup = Radio.Group;
-const RadioButton = Radio.Button;
-import React, { useRef, useState, useEffect } from 'react';
-import { Link, useMatch } from '@umijs/max';
-import CreateForm from './components/CreateForm';
-import ReactJson from 'react-json-view'
+import { Card, Affix } from 'antd';
+import React, { useState } from 'react';
 import { proDate } from '@/utils/format';
+import { Column } from '@ant-design/charts';
 
-const UseInfo: React.FC<unknown> = (prop) => {
-
-  const [createModalVisible, handleModalVisible] = useState<boolean>(false);
-  const actionRef = useRef<ActionType>();
+const UseInfo: React.FC<unknown> = () => {
   const [loading, setLoading] = useState<boolean>(false)
-  const [list, setList] = useState<any>([])
-  const [coverage, setCoverage] = useState<any>([])
-  const [initialValues, setInitialValues] = useState<any>({})
 
-  const [type, setType] = useState<string>("page")
   const [siteList, setSiteList] = useState<any>([]);
-  const [selectedRowsState, setSelectedRows] = useState<API.ComponentInfo[]>([]);
+  const [componentList, setComponentList] = useState<any>([]);
   const { querySiteList } =
     services.SiteController;
-  const { queryComponentDetail } =
+  const { queryComponentUseInfo, queryComponentList } =
     services.ComponentController;
 
+    const [data, setData] = useState([]);
 
-  useEffect(() => {
-    setLoading(true)
-    queryComponentDetail(Object.assign({type}, initialValues,)).then((res) => {
-      console.log('res', res);
+    const config = {
+      data,
+      isStack: true,
+      xField: 'date',
+      yField: 'value',
+      seriesField: 'type',
+      label: {
+        // 可手动配置 label 数据标签位置
+        position: 'middle',
+        // 'top', 'bottom', 'middle'
+        // 可配置附加的布局方法
+        layout: [
+          // 柱形图数据标签位置自动调整
+          {
+            type: 'interval-adjust-position',
+          }, // 数据标签防遮挡
+          {
+            type: 'interval-hide-overlap',
+          }, // 数据标签文颜色自动调整
+          {
+            type: 'adjust-color',
+          },
+        ],
+      },
+    };
+  
+    const queryUseInfo = async (value) => {
+      setLoading(true)
+      let res = await queryComponentUseInfo(Object.assign({}, value))
       setLoading(false)
-      setCoverage(res.data)
-    })
-  }, [initialValues, type]);
+      setData(res.data)
+    }
 
   const querySiteListFn = async () => {
       let res = await querySiteList()
       let result = res.data.map((item: any) => {
         return {
           label: item.name,
-          value: item.name,
+          value: item.site,
         }
       })
       setSiteList(result)
       return result
   }
+  const formatDate = (date: any) => { 
+    let year = date.getFullYear()
+    let month = date.getMonth() + 1
+    let day = date.getDate()
+    return `${year}-${month}-${day}`
+  }
+
+  const queryComponentListFn = async () => {
+    let res = await queryComponentList()
+    let result = res.data.map((item: any) => {
+      return {
+        label: item.name,
+        value: item.name,
+      }
+    })
+    setComponentList(result)
+    return result
+}
 
   const initRequest = async () => {
     let res = await querySiteListFn()
     let obj = {
-      project: res[0].label,
-      date: [proDate(new Date(), '{%M-1}'), new Date()],
+      component:'',
+      project: res[0].value,
+      date: [formatDate(proDate(new Date(), '{%M-1}')), formatDate(new Date())],
     }
-    setInitialValues(obj)
+    await queryComponentListFn()
+    const {component,project,date} = obj
+    const [start,end] = date
+    queryUseInfo(Object.assign({},{component,project,start,end}))
     return obj
   }
 
   const extraContent = (
     <Affix offsetTop={20}>
-      <Row gutter={20} align='middle'>
-        <Col>
-          <LightFilter
-            request={initRequest}
-            size="large"
-            onFinish={async (values) => setInitialValues(values)}
-          >
-            <ProFormSelect
-              name="project"
-              allowClear={false}
-              options={siteList}
-            />
-            <ProFormDateRangePicker
-              name="date"
-              allowClear={false}
-            />
-          </LightFilter>
-        </Col>
-        <Col>
-          <Radio.Group
-            value={type}
-            onChange={(e) => {
-              setType(e.target.value);
-            }}
-          >
-            <Radio.Button value="page">页面</Radio.Button>
-            <Radio.Button value="component">组件</Radio.Button>
-          </Radio.Group>
-        </Col>
-      </Row>
+        <LightFilter
+          request={initRequest}
+          size="large"
+          onFinish={async (values) => {
+            const {component,project} = values
+            console.log(proDate(new Date(), '{%M-1}'));
+            console.log(values.date);
+            
+            const [start,end] = values.date
+            queryUseInfo(Object.assign({},{component,project,start,end}))
+          }}
+        >
+          <ProFormSelect
+            name="component"
+            placeholder="请选择组件"
+            allowClear={true}
+            options={componentList}
+          />
+          <ProFormSelect
+            name="project"
+            allowClear={false}
+            options={siteList}
+          />
+          <ProFormDateRangePicker
+            name="date"
+            allowClear={false}
+          />
+        </LightFilter>
     </Affix>
   );
 
   return (
   <Card
-    // loading={loading}
     bordered={false}
     title='组件使用情况统计'
     style={{ marginTop: 24 }}
     extra={extraContent}
     loading={loading}
   >
+    <Column {...config} />
   </Card>
 )};
 

@@ -150,6 +150,20 @@ const ComponentList: React.FC<PropsWithChildren<unknown>> = (props) => {
       hideInSearch: true,
     },
     {
+      title: '创建时间',
+      dataIndex: 'date',
+      hideInSearch: true,
+      hideInForm: true,
+      readonly: true,
+    },
+    {
+      title: '更新时间',
+      dataIndex: 'update_date',
+      hideInSearch: true,
+      hideInForm: true,
+      readonly: true,
+    },
+    {
       title: '操作',
       dataIndex: 'option',
       valueType: 'option',

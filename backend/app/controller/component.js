@@ -44,7 +44,8 @@ class List extends Controller {
 
   async update() {
     const { ctx } = this;
-    const result = await ctx.service.component.update({ ...ctx.request.body, update_date: String(Date.now()) });
+    const today = this.app.formateDate(new Date());
+    const result = await ctx.service.component.update({ ...ctx.request.body, update_date: today });
     if (result instanceof Error) {
       ctx.body = {
         code: 500,
@@ -74,6 +75,15 @@ class List extends Controller {
     const { ctx } = this;
     const {name, project, date, type } = ctx.query;
     const result = await ctx.service.component.detail({name, project, date, type });
+    ctx.body = {
+      code: 200,
+      data: result,
+    };
+  }
+
+  async useInfo() {
+    const { ctx } = this;
+    const result = await ctx.service.component.useInfo(ctx.query);
     ctx.body = {
       code: 200,
       data: result,
