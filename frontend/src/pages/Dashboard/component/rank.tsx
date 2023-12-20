@@ -31,7 +31,7 @@ const App: React.FC = () => {
   <Card
     // loading={loading}
     bordered={false}
-    title='组件Rank Top10'
+    title='组件覆盖率Rank Top10'
     style={{ marginTop: 24 }}
     extra={
       <div>

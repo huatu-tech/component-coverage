@@ -151,7 +151,7 @@ const UseInfo: React.FC<unknown> = () => {
   return (
   <Card
     bordered={false}
-    title='组件使用情况统计'
+    title='组件使用量情况统计'
     style={{ marginTop: 24 }}
     extra={extraContent}
     loading={loading}

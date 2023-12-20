@@ -81,11 +81,11 @@ console.log('useInfo', component, project, start, end);
       let datestr = this.app.formateDate(new Date(date), 'yyyy-MM-dd')
       return [{
         date:datestr,
-        type: '组件使用量',
+        type: '组件文件',
         value: components_coverage_count,
       }, {
         date:datestr,
-        type: '页面使用量',
+        type: '页面文件',
         value: pages_coverage_count,
       }]
     });
