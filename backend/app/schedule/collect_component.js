@@ -5,7 +5,7 @@ class UpdateCache extends Subscription {
   static get schedule() {
     return {
       // 每日3点准点执行一次：'0 0 3 ? * *'
-      cron: '0 32 11 ? * *',
+      cron: '0 0 18 ? * *',
       type: 'all', // 指定所有的 worker 都需要执行
     };
   }
@@ -30,6 +30,14 @@ class UpdateCache extends Subscription {
         })
         const result1 = await this.ctx.app.mysql.insert('components_coverage',staticDate);
         console.log(result1);
+        // 采集完成，发送邮件
+        // 获取mail信息
+        const mailInfo = await this.ctx.curl('http://127.0.0.1:7001/mail/index', {
+          dataType: 'json',
+        });
+        // 推送邮件
+        const info = await this.ctx.service.mail.send(staticDate, mailInfo.data.data[0]);
+        console.log('发送成功', info);
       }
     }
   }

@@ -33,7 +33,7 @@ const UseInfo: React.FC<unknown> = () => {
     // eslint-disable-next-line arrow-body-style
     const disabledDate: RangePickerProps['disabledDate'] = (current) => {
       // Can not select days before today and today
-      return current && current < dayjs().endOf('day');
+      return current && current > dayjs().endOf('day');
     };
 
     const config = {
@@ -139,8 +139,10 @@ const UseInfo: React.FC<unknown> = () => {
         />
         <ProFormDateRangePicker
           name="date"
-          disabledDate={disabledDate}
-          presets={rangePresets}
+          fieldProps={{
+            disabledDate: disabledDate,
+            presets: rangePresets
+          }}
           allowClear={false}
         />
       </LightFilter>
