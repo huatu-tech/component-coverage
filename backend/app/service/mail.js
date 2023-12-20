@@ -23,7 +23,7 @@ class MailService extends Service {
     const mailOptions = {
       from: from,//发送方
       to: to,//接收方
-      subject: '前端组件库日报', // 标题
+      subject: '前端组件库采集日报', // 标题
       html: `<div>
       <p>${JSON.stringify(data)}</p>
       </div>`
