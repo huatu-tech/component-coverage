@@ -4,10 +4,12 @@ import {
   ProFormDateRangePicker,
   ProFormSelect,
 } from '@ant-design/pro-components';
-import { Card, Affix } from 'antd';
+import { Card } from 'antd';
+import type { TimeRangePickerProps, RangePickerProps } from 'antd';
 import React, { useState } from 'react';
 import { proDate } from '@/utils/format';
 import { Column } from '@ant-design/charts';
+import dayjs from 'dayjs';
 
 const UseInfo: React.FC<unknown> = () => {
   const [loading, setLoading] = useState<boolean>(false)
@@ -20,6 +22,19 @@ const UseInfo: React.FC<unknown> = () => {
     services.ComponentController;
 
     const [data, setData] = useState([]);
+
+
+    const rangePresets: TimeRangePickerProps['presets'] = [
+      { label: '最近一周', value: [dayjs().add(-7, 'd'), dayjs()] },
+      { label: '最近半个月', value: [dayjs().add(-14, 'd'), dayjs()] },
+      { label: '最近一月', value: [dayjs().add(-30, 'd'), dayjs()] },
+      { label: '最近90天', value: [dayjs().add(-90, 'd'), dayjs()] },
+    ];
+    // eslint-disable-next-line arrow-body-style
+    const disabledDate: RangePickerProps['disabledDate'] = (current) => {
+      // Can not select days before today and today
+      return current && current < dayjs().endOf('day');
+    };
 
     const config = {
       data,
@@ -99,36 +114,36 @@ const UseInfo: React.FC<unknown> = () => {
   }
 
   const extraContent = (
-    <Affix offsetTop={20}>
-        <LightFilter
-          request={initRequest}
-          size="large"
-          onFinish={async (values) => {
-            const {component,project} = values
-            console.log(proDate(new Date(), '{%M-1}'));
-            console.log(values.date);
-            
-            const [start,end] = values.date
-            queryUseInfo(Object.assign({},{component,project,start,end}))
-          }}
-        >
-          <ProFormSelect
-            name="component"
-            placeholder="请选择组件"
-            allowClear={true}
-            options={componentList}
-          />
-          <ProFormSelect
-            name="project"
-            allowClear={false}
-            options={siteList}
-          />
-          <ProFormDateRangePicker
-            name="date"
-            allowClear={false}
-          />
-        </LightFilter>
-    </Affix>
+      <LightFilter
+        request={initRequest}
+        size="large"
+        onFinish={async (values) => {
+          const {component,project} = values
+          console.log(proDate(new Date(), '{%M-1}'));
+          console.log(values.date);
+          
+          const [start,end] = values.date
+          queryUseInfo(Object.assign({},{component,project,start,end}))
+        }}
+      >
+        <ProFormSelect
+          name="component"
+          placeholder="请选择组件"
+          allowClear={true}
+          options={componentList}
+        />
+        <ProFormSelect
+          name="project"
+          allowClear={false}
+          options={siteList}
+        />
+        <ProFormDateRangePicker
+          name="date"
+          disabledDate={disabledDate}
+          presets={rangePresets}
+          allowClear={false}
+        />
+      </LightFilter>
   );
 
   return (
