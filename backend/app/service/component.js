@@ -47,9 +47,9 @@ class ComponentService extends Service {
     return result;
   }
 
-  async detail({ name, project, date, type }) {
+  async detail({ name, project_id, date, type }) {
     const result = await this.app.mysql.select('components_coverage_detail', {
-      where: { component: name, project, date }, // WHERE 条件
+      where: { component: name, project_id, date }, // WHERE 条件
     });
     // type : page component
     switch (type) {

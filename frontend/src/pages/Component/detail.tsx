@@ -1,28 +1,20 @@
 import services from '@/services/demo';
 import {
-  ActionType,
   PageContainer,
-  ProCard,
   LightFilter,
   ProFormDatePicker,
   ProFormSelect,
 } from '@ant-design/pro-components';
-import { Button, Divider, Card, Radio, Affix, Row, Col, List, Statistic } from 'antd';
-const RadioGroup = Radio.Group;
-const RadioButton = Radio.Button;
-import React, { useRef, useState, useEffect } from 'react';
-import { Link, useMatch } from '@umijs/max';
-import CreateForm from './components/CreateForm';
+import { Card, Radio, Affix, Row, Col } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { useMatch } from '@umijs/max';
 import ReactJson from 'react-json-view'
 
 
 
-const ComponentDetail: React.FC<unknown> = (prop) => {
+const ComponentDetail: React.FC<unknown> = () => {
 
-  const [createModalVisible, handleModalVisible] = useState<boolean>(false);
-  const actionRef = useRef<ActionType>();
   const [loading, setLoading] = useState<boolean>(false)
-  const [list, setList] = useState<any>([])
   const [coverage, setCoverage] = useState<any>([])
   const [initialValues, setInitialValues] = useState<any>({})
   // 获取年-月-日
@@ -47,7 +39,6 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
 
   const [type, setType] = useState<string>("page")
   const [siteList, setSiteList] = useState<any>([]);
-  const [selectedRowsState, setSelectedRows] = useState<API.ComponentInfo[]>([]);
   const { querySiteList } =
     services.SiteController;
   const { queryComponentDetail } =
@@ -68,7 +59,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
       let result = res.data.map((item: any) => {
         return {
           label: item.name,
-          value: item.name,
+          value: item.id,
         }
       })
       setSiteList(result)
@@ -78,7 +69,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
   const initRequest = async () => {
     let res = await querySiteListFn()
     let obj = {
-      project: res[0].label,
+      project_id: res[0].value,
       date: toDayStr(),
     }
     setInitialValues(obj)
@@ -95,7 +86,7 @@ const ComponentDetail: React.FC<unknown> = (prop) => {
             onFinish={async (values) => setInitialValues(values)}
           >
             <ProFormSelect
-              name="project"
+              name="project_id"
               allowClear={false}
               options={siteList}
             />

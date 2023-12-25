@@ -72,8 +72,7 @@ class List extends Controller {
 
   async detail() {
     const { ctx } = this;
-    const {name, project, date, type } = ctx.query;
-    const result = await ctx.service.component.detail({name, project, date, type });
+    const result = await ctx.service.component.detail(ctx.query);
     ctx.body = {
       code: 200,
       data: result,
