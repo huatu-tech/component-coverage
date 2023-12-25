@@ -31,7 +31,6 @@ class ComponentService extends Service {
     let { id, index, ...sites } = row;
     let { name } = sites;
     const repeat = await this.list(1, 10, { name });
-    console.log('repeat', repeat);
     if (repeat.length && repeat[0].id !== id) {
       return Error('已存在相同的组件');
     }
@@ -70,12 +69,10 @@ class ComponentService extends Service {
   }
 
   async useInfo({ component, project, start, end }) {
-console.log('useInfo', component, project, start, end);
     const startStr = this.app.formateDate(new Date(start), 'yyyy-MM-dd');
     const endStr = this.app.formateDate(new Date(end), 'yyyy-MM-dd');
     let componentStr = component ? `and component = '${component}'` : '';
     const result = await this.app.mysql.query(`select * from components_coverage where date between '${startStr}' and '${endStr}' ${componentStr} and project = '${project}'`);
-    console.log('result', result);
     let arr = result.map(element => {
       const { date, components_coverage_count, pages_coverage_count} = element;
       let datestr = this.app.formateDate(new Date(date), 'yyyy-MM-dd')

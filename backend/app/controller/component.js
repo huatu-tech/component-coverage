@@ -63,7 +63,6 @@ class List extends Controller {
   async query() {
     const { ctx } = this;
     const { id } = ctx.query;
-    console.log(id);
     const result = await ctx.service.component.query(id);
     ctx.body = {
       code: 200,

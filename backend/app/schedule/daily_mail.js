@@ -1,11 +1,11 @@
 const Subscription = require('egg').Subscription;
 
-class SeedMail extends Subscription {
+class DailyMail extends Subscription {
 
   // 通过 schedule 属性来设置定时任务的执行间隔等配置
   static get schedule() {
     return {
-      cron: '0 50 17 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
+      cron: '0 57 15 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
     }
   }
 
@@ -28,4 +28,4 @@ class SeedMail extends Subscription {
   }
 }
 
-module.exports = SeedMail;
+module.exports = DailyMail;

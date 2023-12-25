@@ -10,6 +10,7 @@
     "egg": "^3",
     "egg-mysql": "^4.0.0",
     "egg-scripts": "^2",
+    "highcharts-export-server": "^3.0.3",
     "nodemailer": "^6.9.7",
     "nodemailer-smtp-transport": "^2.7.4"
   },
