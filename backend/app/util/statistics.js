@@ -28,7 +28,7 @@
     detail.push({
       date: dayStr,
       component: String(item),
-      project: String(site.name),
+      project_id: String(site.id),
       components_coverage_count: coverage.components,
       pages_coverage_count:  coverage.pages,
       components_coverage: JSON.stringify(cmp.components),
