@@ -118,12 +118,12 @@ const UseInfo: React.FC<unknown> = () => {
         request={initRequest}
         size="large"
         onFinish={async (values) => {
-          const {component,project} = values
+          const {component,project_id} = values
           console.log(proDate(new Date(), '{%M-1}'));
           console.log(values.date);
           
           const [start,end] = values.date
-          queryUseInfo(Object.assign({},{component,project,start,end}))
+          queryUseInfo(Object.assign({},{component,project_id,start,end}))
         }}
       >
         <ProFormSelect
