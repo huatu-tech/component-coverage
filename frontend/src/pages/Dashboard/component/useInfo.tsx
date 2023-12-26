@@ -74,7 +74,7 @@ const UseInfo: React.FC<unknown> = () => {
       let result = res.data.map((item: any) => {
         return {
           label: item.name,
-          value: item.site,
+          value: item.id,
         }
       })
       setSiteList(result)
@@ -103,13 +103,13 @@ const UseInfo: React.FC<unknown> = () => {
     let res = await querySiteListFn()
     let obj = {
       component:'',
-      project: res[0].value,
+      project_id: res[0].value,
       date: [formatDate(proDate(new Date(), '{%M-1}')), formatDate(new Date())],
     }
     await queryComponentListFn()
-    const {component,project,date} = obj
+    const {component,project_id,date} = obj
     const [start,end] = date
-    queryUseInfo(Object.assign({},{component,project,start,end}))
+    queryUseInfo(Object.assign({},{component,project_id,start,end}))
     return obj
   }
 
@@ -133,7 +133,7 @@ const UseInfo: React.FC<unknown> = () => {
           options={componentList}
         />
         <ProFormSelect
-          name="project"
+          name="project_id"
           allowClear={false}
           options={siteList}
         />

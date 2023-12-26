@@ -62,7 +62,7 @@ class MailService extends Service {
     const mailOptions = {
       from: from,//发送方
       to: to,//接收方
-      subject: '前端组件库调用周报', // 标题
+      subject: '前端组件库调用统计周报', // 标题
       html: `<div>${base64}</div>`
     }
 

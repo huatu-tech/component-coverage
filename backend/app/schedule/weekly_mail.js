@@ -4,6 +4,7 @@ const exporter = require('highcharts-export-server');
 class WeeklyMail extends Subscription {
 
   // 通过 schedule 属性来设置定时任务的执行间隔等配置
+  // 0 0 10 ? * FRI 每个星期五上午10:00触发
   static get schedule() {
     return {
       cron: '0 32 16 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
@@ -58,7 +59,7 @@ class WeeklyMail extends Subscription {
       const mailInfo = await ctx.curl('http://127.0.0.1:7001/mail/index', {
         dataType: 'json',
       });
-      // // 获取数据
+      // 获取数据
       // const res = await ctx.curl('http://127.0.0.1:7001/site/list', {
       //   dataType: 'json',
       // });

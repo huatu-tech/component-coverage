@@ -68,11 +68,11 @@ class ComponentService extends Service {
     }
   }
 
-  async useInfo({ component, project, start, end }) {
+  async useInfo({ component, project_id, start, end }) {
     const startStr = this.app.formateDate(new Date(start), 'yyyy-MM-dd');
     const endStr = this.app.formateDate(new Date(end), 'yyyy-MM-dd');
     let componentStr = component ? `and component = '${component}'` : '';
-    const result = await this.app.mysql.query(`select * from components_coverage where date between '${startStr}' and '${endStr}' ${componentStr} and project = '${project}'`);
+    const result = await this.app.mysql.query(`select * from components_coverage where date between '${startStr}' and '${endStr}' ${componentStr} and project_id = '${project_id}'`);
     let arr = result.map(element => {
       const { date, components_coverage_count, pages_coverage_count} = element;
       let datestr = this.app.formateDate(new Date(date), 'yyyy-MM-dd')
