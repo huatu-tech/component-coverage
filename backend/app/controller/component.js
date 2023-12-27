@@ -88,6 +88,15 @@ class List extends Controller {
     };
   }
 
+  async weekly() {
+    const { ctx } = this;
+    const result = await ctx.service.component.weekly(ctx.query);
+    ctx.body = {
+      code: 200,
+      data: result,
+    };
+  }
+
 }
 
 module.exports = List;

@@ -13,6 +13,7 @@ module.exports = app => {
   router.put('/component/update', controller.component.update); // 删除组件
   router.get('/component/detail', controller.component.detail); // 组件详情
   router.get('/component/useInfo', controller.component.useInfo); // 组件使用详情
+  router.get('/component/weekly', controller.component.weekly); // 组件使用详情周报
 
   router.get('/site/list', controller.site.list); // 项目列表
   router.post('/site/add', controller.site.add); // 新增项目

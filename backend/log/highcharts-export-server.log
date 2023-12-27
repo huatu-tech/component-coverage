@@ -324,3 +324,37 @@ Mon Dec 25 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id
 Mon Dec 25 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry 5cbe73c2-2afb-43f5-850d-bd1f32d84032.
 Mon Dec 25 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry 89e26c13-8239-4bd8-95fd-aa30a730e874.
 Mon Dec 25 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 98efce5b-25a8-4191-a66a-9dc3347bc13d
+Tue Dec 26 2023 16:32:00 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Tue Dec 26 2023 16:32:00 GMT+0800 [verbose] - [cache] writing new manifest
+Tue Dec 26 2023 16:32:00 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 0)
+Tue Dec 26 2023 16:32:01 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Tue Dec 26 2023 16:32:01 GMT+0800 [verbose] - [pool] Attaching exit listeners to the process.
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker 0370e796-75ad-4a46-a43f-9894d14bd09c - took 308 ms.
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker dad989c7-1a70-44cf-ab0e-4415a229e308 - took 167 ms.
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker a0b0ff5c-95d1-40ff-b731-fd1163803052 - took 218 ms.
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker 0c03cad0-0c9c-4a16-b47f-d004b4862476 - took 166 ms.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 0c03cad0-0c9c-4a16-b47f-d004b4862476
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [pool] The pool is ready with 4 initial resources waiting.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [chart] Starting exporting process.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id a0b0ff5c-95d1-40ff-b731-fd1163803052
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 0370e796-75ad-4a46-a43f-9894d14bd09c
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Acquiring worker
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Acquired worker handle
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Starting work on pool entry 0c03cad0-0c9c-4a16-b47f-d004b4862476.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [export] Determining export path.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Tue Dec 26 2023 16:32:02 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id dad989c7-1a70-44cf-ab0e-4415a229e308
+Tue Dec 26 2023 16:32:02 GMT+0800 [verbose] - [export] Treating as config.
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Releasing a worker of an id 0c03cad0-0c9c-4a16-b47f-d004b4862476
+Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry 0370e796-75ad-4a46-a43f-9894d14bd09c.
+Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry dad989c7-1a70-44cf-ab0e-4415a229e308.
+Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Killing all workers.
+Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry a0b0ff5c-95d1-40ff-b731-fd1163803052.
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 0370e796-75ad-4a46-a43f-9894d14bd09c
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id dad989c7-1a70-44cf-ab0e-4415a229e308
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id a0b0ff5c-95d1-40ff-b731-fd1163803052
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 0c03cad0-0c9c-4a16-b47f-d004b4862476
+Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry 0c03cad0-0c9c-4a16-b47f-d004b4862476.
+Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Work completed in 648 ms.
