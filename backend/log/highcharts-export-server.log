@@ -358,3 +358,129 @@ Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id
 Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 0c03cad0-0c9c-4a16-b47f-d004b4862476
 Tue Dec 26 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry 0c03cad0-0c9c-4a16-b47f-d004b4862476.
 Tue Dec 26 2023 16:32:03 GMT+0800 [verbose] - [pool] Work completed in 648 ms.
+Wed Dec 27 2023 16:32:00 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Wed Dec 27 2023 16:32:00 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 0)
+Wed Dec 27 2023 16:32:00 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 0)
+Wed Dec 27 2023 16:32:00 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Wed Dec 27 2023 16:32:00 GMT+0800 [verbose] - [cache] writing new manifest
+Wed Dec 27 2023 16:32:00 GMT+0800 [verbose] - [cache] writing new manifest
+Wed Dec 27 2023 16:32:01 GMT+0800 [notice] - [browser] failed: Error: Failed to launch the browser process!
+[93482:259:1227/163200.810777:ERROR:process_singleton_posix.cc(335)] Failed to create /Users/kangyu/Sites/component-coverage/backend/tmp/puppeteer-VzD2xb_exiBnPbZD5gm2f56zVV1D6tvNUiANC7jZ2tLDD02UXx2VdQvVVcC56wS4NfXDIpguqwIOBQI0U59xSA/profile/SingletonLock: File exists (17)
+[93482:259:1227/163201.760555:ERROR:chrome_main_delegate.cc(553)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Wed Dec 27 2023 16:32:01 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Wed Dec 27 2023 16:32:01 GMT+0800 [verbose] - [pool] Attaching exit listeners to the process.
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker e2e55296-b59e-451c-9487-18aa18b5f10d - took 342 ms.
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker e0ac60ac-4740-42e9-ab99-ae66655af672 - took 282 ms.
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker d9e5f78d-5e7d-45bd-ba19-40df5bfded44 - took 204 ms.
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker f47cabd0-b370-47ea-a604-7760c9691210 - took 265 ms.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id e2e55296-b59e-451c-9487-18aa18b5f10d
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id e0ac60ac-4740-42e9-ab99-ae66655af672
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id d9e5f78d-5e7d-45bd-ba19-40df5bfded44
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id f47cabd0-b370-47ea-a604-7760c9691210
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [pool] The pool is ready with 4 initial resources waiting.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Acquiring worker
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Starting work on pool entry f47cabd0-b370-47ea-a604-7760c9691210.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [pool] Acquired worker handle
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [export] Determining export path.
+Wed Dec 27 2023 16:32:02 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [chart] Starting exporting process.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Wed Dec 27 2023 16:32:02 GMT+0800 [verbose] - [export] Treating as config.
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Releasing a worker of an id f47cabd0-b370-47ea-a604-7760c9691210
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Work completed in 485 ms.
+Wed Dec 27 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry e0ac60ac-4740-42e9-ab99-ae66655af672.
+Wed Dec 27 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry f47cabd0-b370-47ea-a604-7760c9691210.
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id e2e55296-b59e-451c-9487-18aa18b5f10d
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id e0ac60ac-4740-42e9-ab99-ae66655af672
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id f47cabd0-b370-47ea-a604-7760c9691210
+Wed Dec 27 2023 16:32:03 GMT+0800 [verbose] - [pool] Destroyed a worker of an id d9e5f78d-5e7d-45bd-ba19-40df5bfded44
+Wed Dec 27 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry d9e5f78d-5e7d-45bd-ba19-40df5bfded44.
+Wed Dec 27 2023 16:32:03 GMT+0800 [notice] - [pool] Killing all workers.
+Wed Dec 27 2023 16:32:03 GMT+0800 [notice] - [pool] Destroying pool entry e2e55296-b59e-451c-9487-18aa18b5f10d.
+Wed Dec 27 2023 16:32:05 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 1)
+Wed Dec 27 2023 16:32:06 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Wed Dec 27 2023 16:32:06 GMT+0800 [verbose] - [pool] Already initialized, please kill it before creating a new one.
+Wed Dec 27 2023 16:32:06 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Wed Dec 27 2023 16:32:06 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Wed Dec 27 2023 16:32:06 GMT+0800 [verbose] - [pool] Acquiring worker
+Wed Dec 27 2023 16:32:06 GMT+0800 [verbose] - [chart] Starting exporting process.
+Wed Dec 27 2023 16:32:06 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Wed Dec 27 2023 16:32:11 GMT+0800 [notice] - [pool] Killing all workers.
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [cache] writing new manifest
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Already initialized, please kill it before creating a new one.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [chart] Starting exporting process.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Acquiring worker
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [chart] Starting exporting process.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Acquiring worker
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [pool] Already initialized, please kill it before creating a new one.
+Thu Dec 28 2023 16:31:59 GMT+0800 [verbose] - [cache] writing new manifest
+Thu Dec 28 2023 16:31:59 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Thu Dec 28 2023 16:32:04 GMT+0800 [notice] - [pool] Killing all workers.
+Thu Dec 28 2023 16:32:04 GMT+0800 [notice] - [pool] Killing all workers.
+Tue Jan 02 2024 16:32:00 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Tue Jan 02 2024 16:32:00 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 0)
+Tue Jan 02 2024 16:32:00 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 0)
+Tue Jan 02 2024 16:32:00 GMT+0800 [verbose] - [cache] writing new manifest
+Tue Jan 02 2024 16:32:00 GMT+0800 [notice] - [cache] Dependency cache is up to date, proceeding.
+Tue Jan 02 2024 16:32:00 GMT+0800 [verbose] - [cache] writing new manifest
+Tue Jan 02 2024 16:32:01 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Tue Jan 02 2024 16:32:01 GMT+0800 [verbose] - [pool] Attaching exit listeners to the process.
+Tue Jan 02 2024 16:32:01 GMT+0800 [notice] - [browser] failed: Error: Failed to launch the browser process! undefined
+[24527:259:0102/163200.531258:ERROR:process_singleton_posix.cc(335)] Failed to create /Users/kangyu/Sites/component-coverage/backend/tmp/puppeteer-NFGpGWxrNNZaYij1c5G78P7PmWej9Mm-SVrG6rPTTO_LpcwAXqzlZ47hks0Pz6IHdeZs8QdrIjtLOMLH0ZRQgA/profile/SingletonLock: File exists (17)
+[24527:259:0102/163201.333206:ERROR:chrome_main_delegate.cc(553)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+Tue Jan 02 2024 16:32:01 GMT+0800 [notice] - [pool] Successfully created a worker 2094b679-c90e-425a-b345-ca1326600ba9 - took 336 ms.
+Tue Jan 02 2024 16:32:01 GMT+0800 [notice] - [pool] Successfully created a worker 31071f0f-ad4c-4171-8fc3-14e2183e3797 - took 162 ms.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker b6efba4a-d3f3-4d97-ba20-d7a14fbced6f - took 160 ms.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Successfully created a worker 35fd0f93-2739-4ccc-b7f7-161c753149cf - took 157 ms.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 35fd0f93-2739-4ccc-b7f7-161c753149cf
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 2094b679-c90e-425a-b345-ca1326600ba9
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id b6efba4a-d3f3-4d97-ba20-d7a14fbced6f
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Acquiring worker
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Acquired worker handle
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Starting work on pool entry 35fd0f93-2739-4ccc-b7f7-161c753149cf.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [chart] Starting exporting process.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 31071f0f-ad4c-4171-8fc3-14e2183e3797
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [export] Determining export path.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] The pool is ready with 4 initial resources waiting.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [export] Treating as config.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Releasing a worker of an id 35fd0f93-2739-4ccc-b7f7-161c753149cf
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Work completed in 671 ms.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Killing all workers.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Destroying pool entry 2094b679-c90e-425a-b345-ca1326600ba9.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Destroying pool entry 31071f0f-ad4c-4171-8fc3-14e2183e3797.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Destroying pool entry b6efba4a-d3f3-4d97-ba20-d7a14fbced6f.
+Tue Jan 02 2024 16:32:02 GMT+0800 [notice] - [pool] Destroying pool entry 35fd0f93-2739-4ccc-b7f7-161c753149cf.
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 2094b679-c90e-425a-b345-ca1326600ba9
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 31071f0f-ad4c-4171-8fc3-14e2183e3797
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Destroyed a worker of an id b6efba4a-d3f3-4d97-ba20-d7a14fbced6f
+Tue Jan 02 2024 16:32:02 GMT+0800 [verbose] - [pool] Destroyed a worker of an id 35fd0f93-2739-4ccc-b7f7-161c753149cf
+Tue Jan 02 2024 16:32:05 GMT+0800 [notice] - [browser] attempting to get a browser instance (try 1)
+Tue Jan 02 2024 16:32:05 GMT+0800 [notice] - [pool] Initializing pool: min 4, max 8.
+Tue Jan 02 2024 16:32:05 GMT+0800 [verbose] - [pool] Work received, starting to process.
+Tue Jan 02 2024 16:32:05 GMT+0800 [verbose] - [pool] Acquiring worker
+Tue Jan 02 2024 16:32:05 GMT+0800 [notice] - [chart] The default resources.json file not found.
+Tue Jan 02 2024 16:32:05 GMT+0800 [verbose] - [chart] Starting exporting process.
+Tue Jan 02 2024 16:32:05 GMT+0800 [verbose] - [chart] Attempting to export from a raw input.
+Tue Jan 02 2024 16:32:05 GMT+0800 [verbose] - [pool] Already initialized, please kill it before creating a new one.
+Tue Jan 02 2024 16:32:10 GMT+0800 [notice] - [pool] Killing all workers.
