@@ -4,9 +4,9 @@ const { join } = require('path')
 const http = require('http')
 
 const options = {
-    hostname: '172.30.9.183', // 请求的主机名
-    port: 3000,                     // 请求的端口号
-    path: '/componentList',         // 请求的路径
+    hostname: 'vue-statistics.huatu.com', // 请求的主机名
+    port: 80,                     // 请求的端口号
+    path: '/api/component/list',         // 请求的路径
     method: 'GET'                  // 请求的方法
 }
 
@@ -61,20 +61,20 @@ function getComponentCount(path, componentList) {
             isComponent ? componentsCount++ : pagesCount++
             // 通过“fPath”判断是否是组件
             const content = fs.readFileSync(fPath, 'utf8')
-            componentList.forEach((component) => {
-                const reg = new RegExp(`<${hyphenate(component)}`, 'g')
+            componentList.forEach(({ name }) => {
+                const reg = new RegExp(`<${hyphenate(name)}`, 'g')
                 const match = content.match(reg)
                 if (match) {
                     let str = isComponent ? 'components' : 'pages'
-                    let posInfo = getPos(content, `<${hyphenate(component)}`, fPath, match.length)
-                    if (count[component] && count[component][str]) {
-                        count[component][str].push(posInfo)
+                    let posInfo = getPos(content, `<${hyphenate(name)}`, fPath, match.length)
+                    if (count[name] && count[name][str]) {
+                        count[name][str].push(posInfo)
                     } else {
-                        count[component] = {
+                        count[name] = {
                             components: [],
                             pages: [],
                         }
-                        count[component][str].push(posInfo)
+                        count[name][str].push(posInfo)
                     }
                 }
             })
