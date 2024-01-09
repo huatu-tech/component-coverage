@@ -40,7 +40,7 @@
     return {
       date: dayStr,
       component: String(item),
-      project: String(site.site),
+      project_id: String(site.id),
       components_coverage_count: coverage.components,
       pages_coverage_count:  coverage.pages,
       components_count: data.componentsCount,

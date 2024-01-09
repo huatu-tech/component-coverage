@@ -1,13 +1,13 @@
 const Subscription = require('egg').Subscription;
+// const generateSvg = require('../util/generateSvg');
 const exporter = require('highcharts-export-server');
-
 class WeeklyMail extends Subscription {
 
   // 通过 schedule 属性来设置定时任务的执行间隔等配置
   // 0 0 10 ? * FRI 每个星期五上午10:00触发
   static get schedule() {
     return {
-      cron: '0 32 16 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
+      cron: '0 45 20 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
     }
   }
 
@@ -41,90 +41,105 @@ class WeeklyMail extends Subscription {
     // 获取周报数据
     const weeklyData = await ctx.curl('http://127.0.0.1:7001/component/weekly', {
       dataType: 'json',
+      data: {
+        start: dateArr[0],
+        end: dateArr[4],
+      },
     });
-    // Initialize export settings with your chart's config
-    // Export settings correspond to the available CLI arguments described above.
 
-    //   Highcharts.chart('container', {
-    //     chart: {
-    //         type: 'column'
-    //     },
-    //     title: {
-    //         text: `${dateArr[0]}-${dateArr[4]}调用次数统计`,
-    //     },
-    //     xAxis: {
-    //         categories: dateArr
-    //     },
-    //     plotOptions: {
-    //         column: {
-    //             stacking: 'percent',
-    //             dataLabels: {
-    //                 enabled: true,
-    //             }
-    //         }
-    //     },
-    //     series: [{
-    //         name: '页面',
-    //         data: [434, 290, 307]
-    //     }, {
-    //         name: '组件',
-    //         data: [272, 153, 156]
-    //     }]
-    // });
-
-
-    const exportSettings = {
-      export: {
-        type: 'svg',
-        options: {
-          title: {
-            text: `调用次数统计`
-          },
-          xAxis: {
-            categories: ["Jan", "Feb", "Mar", "Apr"]
-          },
-          series: [
-            {
-              type: 'bar',
-              data: [1, 3, 2, 4]
-            },
-            {
-              type: 'bar',
-              data: [5, 3, 4, 2]
-            }
-          ]
+    const gerrantData = (data, name) => {
+      let categories = [];
+      let data0 = [];
+      let data1 = [];
+      for (let i = 0; i < data.length; i++) {
+        let item = data[i];
+        let date = String(item.date);
+        if (categories.includes(date)) {
+          data0[categories.indexOf(date)] += item.pages_count;
+          data1[categories.indexOf(date)] += item.components_count;
+        } else {
+          categories.push(date);
+          data0.push(item.pages_count);
+          data1.push(item.components_count);
         }
       }
-    };
+      return {
+        export: {
+          type: 'svg',
+          options: {
+            title: {
+              text: `${name} ${dateArr[0]}至${dateArr[4]}调用次数统计`
+            },
+            xAxis: {
+              categories: categories,
+            },
+            series: [
+              {
+                type: 'bar',
+                name: '页面',
+                data: data0
+              },
+              {
+                type: 'bar',
+                name: '组件',
+                data: data1
+              }
+            ]
+          }
+        }
+      }
+    }
+    // Set options
+    const options = exporter.setOptions({
+      logging: {
+        level: 0
+      }
+    });
+
+    // Initialize pool with disabled logging
+    await exporter.initPool(options);
+
 
     //组合数据
-    let pmsArr = siteList.data.data.map(async (item) => {
-      const filterData = weeklyData.data.data.filter((element) => {
-        return element.project_id === item.id;
-      });
+    let pmsArr = await siteList.data.data.map(async (item) => {
       return new Promise(async (resolve, reject) => {
+        try {
+          const filterData = weeklyData.data.data.filter((element) => {
+            return element.project_id === item.id;
+          });
+          let newOptions = await gerrantData(filterData, item.name)
+          console.log('newOptions', JSON.stringify(newOptions));
+          // Set the new options and merge it with the default options
+          // const options = exporter.setOptions(newOptions);
 
-        // Set the new options and merge it with the default options
-        const options = exporter.setOptions(exportSettings);
+          // // Initialize a pool of workers
+          // await exporter.initPool(options);
 
-        // Initialize a pool of workers
-        await exporter.initPool(options);
-
-        // Perform an export
-        exporter.startExport(exportSettings, async function (res, err) {
-          resolve(res.data);
-          exporter.killPool();
-        });
-      });
+          // Perform an export
+          exporter.startExport(newOptions, async function (res, err) {
+            console.log('+++++++++++++++', res);
+            return resolve(res.data)
+          });
+        } catch (error) {
+          reject(`Error thrown: ${error}`);
+        }
+      })
     })
 
-    let base64Res = await Promise.all(pmsArr)
-
-    if (res.data && mailInfo) {
-      const data = res.data || []
-      const info = await ctx.service.mail.weekly(data, mailInfo.data.data[0]);
-      console.log('发送成功', info);
+    try {
+      // Await all exports
+      const base64Res = await Promise.all(pmsArr)
+      if (base64Res && base64Res.length && mailInfo) {
+        const info = await ctx.service.mail.weekly(base64Res, mailInfo.data.data[0]);
+        console.log('发送成功', info);
+      } else {
+        console.log('暂无数据，取消发送');
+      }
+    } catch (error) {
+      console.log(`Something went wrong!, ${error}`);
+      process.exit(1);
     }
+    await exporter.killPool();
   }
 }
 

@@ -90,9 +90,7 @@ class ComponentService extends Service {
   }
   // 周报
   async weekly({start, end }) {
-    const startStr = this.app.formateDate(new Date(start), 'yyyy-MM-dd');
-    const endStr = this.app.formateDate(new Date(end), 'yyyy-MM-dd');
-    const result = await this.app.mysql.query(`select * from components_coverage where date between '${startStr}' and '${endStr}'`);
+    const result = await this.app.mysql.query(`select * from components_coverage where date between '${start}' and '${end}'`);
     return result
   }
 }
