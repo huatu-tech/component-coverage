@@ -46,7 +46,7 @@ class MailService extends Service {
     sendEmails(transporter, mailOptions);
   }
 
-  async weekly(base64Res, { pass, from, to, host }) {
+  async weekly(base64Res, { pass, from, to, host }, dateArr) {
     const transporter = nodemailer.createTransport(smtpTransport({
       host: host, //邮件服务供应商
       pool: true,
@@ -61,7 +61,7 @@ class MailService extends Service {
     const mailOptions = {
       from: from,//发送方
       to: to,//接收方
-      subject: '前端组件库调用统计周报', // 标题
+      subject: `${dateArr[0]}至${dateArr[4]}前端组件库调用统计周报`, // 标题
       html: `<div>${base64Res.join('')}</div>`
     }
 

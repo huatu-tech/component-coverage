@@ -130,7 +130,7 @@ class WeeklyMail extends Subscription {
       // Await all exports
       const base64Res = await Promise.all(pmsArr)
       if (base64Res && base64Res.length && mailInfo) {
-        const info = await ctx.service.mail.weekly(base64Res, mailInfo.data.data[0]);
+        const info = await ctx.service.mail.weekly(base64Res, mailInfo.data.data[0], dateArr);
         console.log('发送成功', info);
       } else {
         console.log('暂无数据，取消发送');
