@@ -7,7 +7,7 @@ class WeeklyMail extends Subscription {
   // 0 0 10 ? * FRI 每个星期五上午10:00触发
   static get schedule() {
     return {
-      cron: '0 45 20 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
+      cron: '0 24 21 * * *', type: 'all', // 指定所有的 worker 都需要执行    };
     }
   }
 
@@ -72,6 +72,22 @@ class WeeklyMail extends Subscription {
             },
             xAxis: {
               categories: categories,
+              crosshair: true
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true,
+                        allowOverlap: true // 允许数据标签重叠
+                    }
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                floating: true,
+                shadow: true
             },
             series: [
               {
